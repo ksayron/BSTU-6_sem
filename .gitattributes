@@ -1,0 +1,1 @@
+/DB/lab4/Natural_Earth_quick_start/50m_raster/NE1_50M_SR_W/NE1_50M_SR_W.tif filter=lfs diff=lfs merge=lfs -text
