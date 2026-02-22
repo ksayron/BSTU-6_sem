@@ -1,0 +1,615 @@
+{
+    "settings": {
+        "options": {
+            "show_on_front": "posts",
+            "featured-content": false,
+            "jetpack_global_styles": false
+        },
+        "theme_mods": {
+            "0": false,
+            "nav_menu_locations": {
+                "primary": "main-menu",
+                "social": "social-links"
+            },
+            "header_textcolor": "1a1a1a",
+            "header_image": "remove-header",
+            "colors_manager": {
+                "colors": {
+                    "bg": "#1a1a1a",
+                    "txt": "#ffffff",
+                    "link": "#007acc",
+                    "fg1": "#1a1a1a",
+                    "fg2": "#686868"
+                },
+                "cached": false
+            },
+            "custom_css_post_id": -1
+        },
+        "headstart": {
+            "mapped_id_options": [],
+            "mapped_id_theme_mods": [],
+            "keep_submenu_items": true
+        }
+    },
+    "widgets": [
+        {
+            "id": "text-2",
+            "id_base": "text",
+            "settings": {
+                "title": "About",
+                "text": "Twenty Sixteen is a modernized take on an ever-popular WordPress layout \u2014 the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.",
+                "filter": true,
+                "syntaxhighlighter_encoded": true
+            },
+            "sidebar": "sidebar-1",
+            "position": 0
+        },
+        {
+            "id": "search-2",
+            "id_base": "search",
+            "settings": {
+                "title": ""
+            },
+            "sidebar": "sidebar-1",
+            "position": 1
+        },
+        {
+            "id": "categories-2",
+            "id_base": "categories",
+            "settings": {
+                "title": "",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "sidebar": "sidebar-1",
+            "position": 2
+        },
+        {
+            "id": "wp_tag_cloud-2",
+            "id_base": "wp_tag_cloud",
+            "settings": {
+                "title": "Tags",
+                "max_tags": 75,
+                "exclude": ""
+            },
+            "sidebar": "sidebar-1",
+            "position": 3
+        },
+        {
+            "id": "recent-posts-3",
+            "id_base": "recent-posts",
+            "settings": {
+                "title": "",
+                "number": 10,
+                "show_date": false
+            },
+            "sidebar": "sidebar-1",
+            "position": 4
+        },
+        {
+            "id": "recent-posts-2",
+            "id_base": "recent-posts",
+            "settings": {
+                "title": "",
+                "number": 5,
+                "show_date": true
+            },
+            "sidebar": "sidebar-2",
+            "position": 0
+        },
+        {
+            "id": "blog_subscription-3",
+            "id_base": "blog_subscription",
+            "settings": [],
+            "sidebar": "sidebar-3",
+            "position": 0
+        }
+    ],
+    "content": [
+        {
+            "post_type": "page",
+            "post_title": "Image Alignments",
+            "post_content": "<!-- wp:paragraph -->\n<p>This page is filled with sample content illustrating what various image types look like.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 id=\"right-aligned-medium\">Right-aligned Medium<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:image {\"align\":\"right\",\"id\":43,\"linkDestination\":\"custom\"} -->\n<div class=\"wp-block-image\"><figure class=\"alignright\"><a href=\"https:\/\/twentysixteendemo.wordpress.com\/style-guide\/image-alignments\/6hgsktgpfie-the-anchor\/\" rel=\" rel=&quot;attachment wp-att-43&quot;\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/6hgsktgpfie-the-anchor.jpg?w=200\" alt=\"6hgsktgpfie-the-anchor\" class=\"wp-image-43\" \/><\/a><\/figure><\/div>\n<!-- \/wp:image -->\n\n<!-- wp:paragraph -->\n<p>Perhaps the very atmospheric conditions which had kept away the merchant fleets of bygone ages induced the O.S.N. Company to violate the sanctuary of peace sheltering the calm existence of Sulaco. The variable airs sporting lightly with the vast semicircle of waters within the head of Azuera could not baffle the steam power of their excellent fleet. Year after year the black hulls of their ships had gone up and down the coast, in and out, past Azuera, past the Isabels, past Punta Mala\u2014disregarding everything but the tyranny of time. Their names, the names of all mythology, became the household words of a coast that had never been ruled by the gods of Olympus. The Juno was known only for her comfortable cabins amidships, the Saturn for the geniality of her captain and the painted and gilt luxuriousness of her saloon, whereas the Ganymede was fitted out mainly for cattle transport, and to be avoided by coastwise passengers. The humblest Indian in the obscurest village on the coast was familiar with the Cerberus, a little black puffer without charm or living accommodation to speak of, whose mission was to creep inshore along the wooded beaches close to mighty ugly rocks, stopping obligingly before every cluster of huts to collect produce, down to three-pound parcels of indiarubber bound in a wrapper of dry grass.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 id=\"left-aligned-medium\">Left-aligned Medium<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:image {\"align\":\"left\",\"id\":46,\"linkDestination\":\"custom\"} -->\n<div class=\"wp-block-image\"><figure class=\"alignleft\"><a href=\"https:\/\/twentysixteendemo.wordpress.com\/style-guide\/image-alignments\/qmemudqzrxq-nick-scheerbart\/\" rel=\" rel=&quot;attachment wp-att-46&quot;\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/qmemudqzrxq-nick-scheerbart.jpg?w=300\" alt=\"qmemudqzrxq-nick-scheerbart\" class=\"wp-image-46\" \/><\/a><\/figure><\/div>\n<!-- \/wp:image -->\n\n<!-- wp:paragraph -->\n<p>And as they seldom failed to account for the smallest package, rarely lost a bullock, and had never drowned a single passenger, the name of the O.S.N. stood very high for trustworthiness. People declared that under the Company's care their lives and property were safer on the water than in their own houses on shore.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The O.S.N.'s superintendent in Sulaco for the whole Costaguana section of the service was very proud of his Company's standing. He resumed it in a saying which was very often on his lips, \"We never make mistakes.\" To the Company's officers it took the form of a severe injunction, \"We must make no mistakes. I'll have no mistakes here, no matter what Smith may do at his end.\"<br>Smith, on whom he had never set eyes in his life, was the other superintendent of the service, quartered some fifteen hundred miles away from Sulaco. \"Don't talk to me of your Smith.\"<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 id=\"full-width\">Full-Width<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:image {\"id\":47,\"linkDestination\":\"custom\"} -->\n<figure class=\"wp-block-image\"><a href=\"https:\/\/twentysixteendemo.wordpress.com\/style-guide\/image-alignments\/tjejuqghjcw-luke-pamer\/\" rel=\" rel=&quot;attachment wp-att-47&quot;\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/tjejuqghjcw-luke-pamer.jpg\" alt=\"tjejuqghjcw-luke-pamer\" class=\"wp-image-47\" \/><\/a><\/figure>\n<!-- \/wp:image -->\n\n<!-- wp:paragraph -->\n<p>Then, calming down suddenly, he would dismiss the subject with studied negligence.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>\"Smith knows no more of this continent than a baby.\"<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>\"Our excellent Senor Mitchell\" for the business and official world of Sulaco; \"Fussy Joe\" for the commanders of the Company's ships, Captain Joseph Mitchell prided himself on his profound knowledge of men and things in the country\u2014cosas de Costaguana. Amongst these last he accounted as most unfavourable to the orderly working of his Company the frequent changes of government brought about by revolutions of the military type.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 id=\"images-with-captions\">Images with captions<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:image {\"align\":\"right\",\"id\":49} -->\n<div class=\"wp-block-image\"><figure class=\"alignright\"><a href=\"https:\/\/twentysixteendemo.wordpress.com\/style-guide\/image-alignments\/tr8gjw-vi3y-saul-cuellar\/\" rel=\" rel=&quot;attachment wp-att-49&quot;\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/tr8gjw-vi3y-saul-cuellar.jpg?w=300\" alt=\"In the Woods\" class=\"wp-image-49\" \/><\/a><figcaption>In the Woods<\/figcaption><\/figure><\/div>\n<!-- \/wp:image -->\n\n<!-- wp:paragraph -->\n<p>Perhaps the very atmospheric conditions which had kept away the merchant fleets of bygone ages induced the O.S.N. Company to violate the sanctuary of peace sheltering the calm existence of Sulaco. The variable airs sporting lightly with the vast semicircle of waters within the head of Azuera could not baffle the steam power of their excellent fleet. Year after year the black hulls of their ships had gone up and down the coast, in and out, past Azuera, past the Isabels, past Punta Mala\u2014disregarding everything but the tyranny of time. Their names, the names of all mythology, became the household words of a coast that had never been ruled by the gods of Olympus. The Juno was known only for her comfortable cabins amidships, the Saturn for the geniality of her captain and the painted and gilt luxuriousness of her saloon, whereas the Ganymede was fitted out mainly for cattle transport, and to be avoided by coastwise passengers. The humblest Indian in the obscurest village on the coast was familiar with the Cerberus, a little black puffer without charm or living accommodation to speak of, whose mission was to creep inshore along the wooded beaches close to mighty ugly rocks, stopping obligingly before every cluster of huts to collect produce, down to three-pound parcels of indiarubber bound in a wrapper of dry grass.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 id=\"thumbnails\">Thumbnails<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:image {\"align\":\"right\",\"id\":50,\"linkDestination\":\"custom\"} -->\n<div class=\"wp-block-image\"><figure class=\"alignright\"><a href=\"https:\/\/twentysixteendemo.wordpress.com\/style-guide\/image-alignments\/arzvsapw57g-micah-hallahan\/\" rel=\" rel=&quot;attachment wp-att-50&quot;\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/arzvsapw57g-micah-hallahan.jpg?w=150\" alt=\"arzvsapw57g-micah-hallahan\" class=\"wp-image-50\" \/><\/a><\/figure><\/div>\n<!-- \/wp:image -->\n\n<!-- wp:paragraph -->\n<p>The political atmosphere of the Republic was generally stormy in these days. The fugitive patriots of the defeated party had the knack of turning up again on the coast with half a steamer's load of small arms and ammunition. Such resourcefulness Captain Mitchell considered as perfectly wonderful in view of their utter destitution at the time of flight. He had observed that \"they never seemed to have enough change about them to pay for their passage ticket out of the country.\" And he could speak with knowledge; for on a memorable occasion he had been called upon to save the life of a dictator, together with the lives of a few Sulaco officials\u2014the political chief, the director of the customs, and the head of police\u2014belonging to an overturned government. Poor Senor Ribiera (such was the dictator's name) had come pelting eighty miles over mountain tracks after the lost battle of Socorro, in the hope of out-distancing the fatal news\u2014which, of course, he could not manage to do on a lame mule. The animal, moreover, expired under him at the end of the Alameda, where the military band plays sometimes in the evenings between the revolutions. \"Sir,\" Captain Mitchell would pursue with portentous gravity, \"the ill-timed end of that mule attracted attention to the unfortunate rider. His features were recognized by several deserters from the Dictatorial army amongst the rascally mob already engaged in smashing the windows of the Intendencia.\"<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:image {\"align\":\"left\",\"id\":51,\"linkDestination\":\"custom\"} -->\n<div class=\"wp-block-image\"><figure class=\"alignleft\"><a href=\"https:\/\/twentysixteendemo.wordpress.com\/style-guide\/image-alignments\/aqoodwdypis-colton-brown\/\" rel=\" rel=&quot;attachment wp-att-51&quot;\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/aqoodwdypis-colton-brown.jpg?w=150\" alt=\"aqoodwdypis-colton-brown\" class=\"wp-image-51\" \/><\/a><\/figure><\/div>\n<!-- \/wp:image -->\n\n<!-- wp:paragraph -->\n<p>Early on the morning of that day the local authorities of Sulaco had fled for refuge to the O.S.N. Company's offices, a strong building near the shore end of the jetty, leaving the town to the mercies of a revolutionary rabble; and as the Dictator was execrated by the populace on account of the severe recruitment law his necessities had compelled him to enforce during the struggle, he stood a good chance of being torn to pieces. Providentially, Nostromo\u2014invaluable fellow\u2014with some Italian workmen, imported to work upon the National Central Railway, was at hand, and managed to snatch him away\u2014for the time at least. Ultimately, Captain Mitchell succeeded in taking everybody off in his own gig to one of the Company's steamers\u2014it was the Minerva\u2014just then, as luck would have it, entering the harbour.<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "image-alignments",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 16,
+            "hs_post_parent": 14,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "Style Guide",
+            "post_content": "<!-- wp:paragraph -->\n<p>That last is no more than a foot high, and about seven paces across, a mere flat top of a grey rock which smokes like a hot cinder after a shower, and where no man would care to venture a naked sole before sunset. On the Little Isabel an old ragged palm, with a thick bulging trunk rough with spines, a very witch amongst palm trees, rustles a dismal bunch of dead leaves above the coarse sand. The Great Isabel has a spring of fresh water issuing from the overgrown side of a ravine. Resembling an emerald green wedge of land a mile long, and laid flat upon the sea, it bears two forest trees standing close together, with a wide spread of shade at the foot of their smooth trunks. A ravine extending the whole length of the island is full of bushes; and presenting a deep tangled cleft on the high side spreads itself out on the other into a shallow depression abutting on a small strip of sandy shore.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:heading {\"level\":1} -->\n<h1 id=\"header-one\">Header one<\/h1>\n<!-- \/wp:heading -->\n\n<!-- wp:paragraph -->\n<p>That last is no more than a foot high, and about seven paces across, a mere flat top of a grey rock which smokes like a hot cinder after a shower, and where no man would care to venture a naked sole before sunset. On the Little Isabel an old ragged palm, with a thick bulging trunk rough with spines, a very witch amongst palm trees, rustles a dismal bunch of dead leaves above the coarse sand. The Great Isabel has a spring of fresh water issuing from the overgrown side of a ravine. Resembling an emerald green wedge of land a mile long, and laid flat upon the sea, it bears two forest trees standing close together, with a wide spread of shade at the foot of their smooth trunks. A ravine extending the whole length of the island is full of bushes; and presenting a deep tangled cleft on the high side spreads itself out on the other into a shallow depression abutting on a small strip of sandy shore.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 id=\"header-two\">Header two<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:paragraph -->\n<p>That last is no more than a foot high, and about seven paces across, a mere flat top of a grey rock which smokes like a hot cinder after a shower, and where no man would care to venture a naked sole before sunset. On the Little Isabel an old ragged palm, with a thick bulging trunk rough with spines, a very witch amongst palm trees, rustles a dismal bunch of dead leaves above the coarse sand. The Great Isabel has a spring of fresh water issuing from the overgrown side of a ravine. Resembling an emerald green wedge of land a mile long, and laid flat upon the sea, it bears two forest trees standing close together, with a wide spread of shade at the foot of their smooth trunks. A ravine extending the whole length of the island is full of bushes; and presenting a deep tangled cleft on the high side spreads itself out on the other into a shallow depression abutting on a small strip of sandy shore.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 id=\"header-three\">Header three<\/h3>\n<!-- \/wp:heading -->\n\n<!-- wp:paragraph -->\n<p>That last is no more than a foot high, and about seven paces across, a mere flat top of a grey rock which smokes like a hot cinder after a shower, and where no man would care to venture a naked sole before sunset. On the Little Isabel an old ragged palm, with a thick bulging trunk rough with spines, a very witch amongst palm trees, rustles a dismal bunch of dead leaves above the coarse sand. The Great Isabel has a spring of fresh water issuing from the overgrown side of a ravine. Resembling an emerald green wedge of land a mile long, and laid flat upon the sea, it bears two forest trees standing close together, with a wide spread of shade at the foot of their smooth trunks. A ravine extending the whole length of the island is full of bushes; and presenting a deep tangled cleft on the high side spreads itself out on the other into a shallow depression abutting on a small strip of sandy shore.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:heading {\"level\":4} -->\n<h4 id=\"header-four\">Header four<\/h4>\n<!-- \/wp:heading -->\n\n<!-- wp:paragraph -->\n<p>That last is no more than a foot high, and about seven paces across, a mere flat top of a grey rock which smokes like a hot cinder after a shower, and where no man would care to venture a naked sole before sunset. On the Little Isabel an old ragged palm, with a thick bulging trunk rough with spines, a very witch amongst palm trees, rustles a dismal bunch of dead leaves above the coarse sand. The Great Isabel has a spring of fresh water issuing from the overgrown side of a ravine. Resembling an emerald green wedge of land a mile long, and laid flat upon the sea, it bears two forest trees standing close together, with a wide spread of shade at the foot of their smooth trunks. A ravine extending the whole length of the island is full of bushes; and presenting a deep tangled cleft on the high side spreads itself out on the other into a shallow depression abutting on a small strip of sandy shore.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:heading {\"level\":5} -->\n<h5 id=\"header-five\">Header five<\/h5>\n<!-- \/wp:heading -->\n\n<!-- wp:paragraph -->\n<p>That last is no more than a foot high, and about seven paces across, a mere flat top of a grey rock which smokes like a hot cinder after a shower, and where no man would care to venture a naked sole before sunset. On the Little Isabel an old ragged palm, with a thick bulging trunk rough with spines, a very witch amongst palm trees, rustles a dismal bunch of dead leaves above the coarse sand. The Great Isabel has a spring of fresh water issuing from the overgrown side of a ravine. Resembling an emerald green wedge of land a mile long, and laid flat upon the sea, it bears two forest trees standing close together, with a wide spread of shade at the foot of their smooth trunks. A ravine extending the whole length of the island is full of bushes; and presenting a deep tangled cleft on the high side spreads itself out on the other into a shallow depression abutting on a small strip of sandy shore.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:heading {\"level\":6} -->\n<h6 id=\"header-six\">Header six<\/h6>\n<!-- \/wp:heading -->\n\n<!-- wp:paragraph -->\n<p>That last is no more than a foot high, and about seven paces across, a mere flat top of a grey rock which smokes like a hot cinder after a shower, and where no man would care to venture a naked sole before sunset. On the Little Isabel an old ragged palm, with a thick bulging trunk rough with spines, a very witch amongst palm trees, rustles a dismal bunch of dead leaves above the coarse sand. The Great Isabel has a spring of fresh water issuing from the overgrown side of a ravine. Resembling an emerald green wedge of land a mile long, and laid flat upon the sea, it bears two forest trees standing close together, with a wide spread of shade at the foot of their smooth trunks. A ravine extending the whole length of the island is full of bushes; and presenting a deep tangled cleft on the high side spreads itself out on the other into a shallow depression abutting on a small strip of sandy shore.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 id=\"blockquotes\">Blockquotes<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Single line blockquote:<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Stay hungry. Stay foolish.<\/p><\/blockquote>\n<!-- \/wp:quote -->\n\n<!-- wp:paragraph -->\n<p>Multi line blockquote with a cite reference:<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying no to 1,000 things.<\/p><p><cite>Steve Jobs - Apple Worldwide Developers' Conference, 1997<\/cite><\/p><cite>Steve Jobs - Apple Worldwide Developers' Conference, 1997<\/cite><\/blockquote>\n<!-- \/wp:quote -->\n\n<!-- wp:paragraph -->\n<p>That last is no more than a foot high, and about seven paces across, a mere flat top of a grey rock which smokes like a hot cinder after a shower, and where no man would care to venture a naked sole before sunset. On the Little Isabel an old ragged palm, with a thick bulging trunk rough with spines, a very witch amongst palm trees, rustles a dismal bunch of dead leaves above the coarse sand. The Great Isabel has a spring of fresh water issuing from the overgrown side of a ravine. Resembling an emerald green wedge of land a mile long, and laid flat upon the sea, it bears two forest trees standing close together, with a wide spread of shade at the foot of their smooth trunks. A ravine extending the whole length of the island is full of bushes; and presenting a deep tangled cleft on the high side spreads itself out on the other into a shallow depression abutting on a small strip of sandy shore.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>This is right aligned blockquote. Sometimes life hits you in the head with a brick. Don't lose faith.<\/p><\/blockquote>\n<!-- \/wp:quote -->\n\n<!-- wp:paragraph -->\n<p>That last is no more than a foot high, and about seven paces across, a mere flat top of a grey rock which smokes like a hot cinder after a shower, and where no man would care to venture a naked sole before sunset. On the Little Isabel an old ragged palm, with a thick bulging trunk rough with spines, a very witch amongst palm trees, rustles a dismal bunch of dead leaves above the coarse sand. The Great Isabel has a spring of fresh water issuing from the overgrown side of a ravine. Resembling an emerald green wedge of land a mile long, and laid flat upon the sea, it bears two forest trees standing close together, with a wide spread of shade at the foot of their smooth trunks. A ravine extending the whole length of the island is full of bushes; and presenting a deep tangled cleft on the high side spreads itself out on the other into a shallow depression abutting on a small strip of sandy shore.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>This is right aligned blockquote. Sometimes life hits you in the head with a brick. Don't lose faith.<\/p><\/blockquote>\n<!-- \/wp:quote -->\n\n<!-- wp:paragraph -->\n<p>That last is no more than a foot high, and about seven paces across, a mere flat top of a grey rock which smokes like a hot cinder after a shower, and where no man would care to venture a naked sole before sunset. On the Little Isabel an old ragged palm, with a thick bulging trunk rough with spines, a very witch amongst palm trees, rustles a dismal bunch of dead leaves above the coarse sand. The Great Isabel has a spring of fresh water issuing from the overgrown side of a ravine. Resembling an emerald green wedge of land a mile long, and laid flat upon the sea, it bears two forest trees standing close together, with a wide spread of shade at the foot of their smooth trunks. A ravine extending the whole length of the island is full of bushes; and presenting a deep tangled cleft on the high side spreads itself out on the other into a shallow depression abutting on a small strip of sandy shore.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 id=\"tables\">Tables<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:table -->\n<figure class=\"wp-block-table\"><table><thead><tr><th>Employee<\/th><th>Salary<\/th><th>&nbsp;<\/th><\/tr><\/thead><tbody><tr><th><a href=\"http:\/\/example.org\/\">John Doe<\/a><\/th><td>$1<\/td><td>Because that's all Steve Jobs needed for a salary.<\/td><\/tr><tr><th><a href=\"http:\/\/example.org\/\">Jane Doe<\/a><\/th><td>$100K<\/td><td>For all the blogging she does.<\/td><\/tr><tr><th><a href=\"http:\/\/example.org\/\">Fred Bloggs<\/a><\/th><td>$100M<\/td><td>Pictures are worth a thousand words, right? So Jane x 1,000.<\/td><\/tr><tr><th><a href=\"http:\/\/example.org\/\">Jane Bloggs<\/a><\/th><td>$100B<\/td><td>With hair like that?! Enough said...<\/td><\/tr><\/tbody><\/table><\/figure>\n<!-- \/wp:table -->\n\n<!-- wp:heading -->\n<h2 id=\"definition-lists\">Definition Lists<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:html -->\n<dl>\n<dt>Definition List Title<\/dt>\n<dd>Definition list division.<\/dd>\n<dt>Startup<\/dt>\n<dd>A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.<\/dd>\n<dt>#dowork<\/dt>\n<dd>Coined by Rob Dyrdek and his personal body guard Christopher \"Big Black\" Boykins, \"Do Work\" works as a self motivator, to motivating your friends.<\/dd>\n<dt>Do It Live<\/dt>\n<dd>I'll let Bill O'Reilly will <a title=\"We'll Do It Live\" href=\"https:\/\/www.youtube.com\/watch?v=O_HyZ5aW76c\">explain<\/a> this one.<\/dd>\n<\/dl>\n<!-- \/wp:html -->\n\n<!-- wp:heading -->\n<h2 id=\"unordered-list-nested\">Unordered List (Nested)<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:list -->\n<ul><li>List item one\n<ul>\n<li>List item one\n<ul>\n<li>List item one<\/li>\n<li>List item two<\/li>\n<li>List item three<\/li>\n<li>List item four<\/li>\n<\/ul>\n<\/li>\n<li>List item two<\/li>\n<li>List item three<\/li>\n<li>List item four<\/li>\n<\/ul>\n<\/li><li>List item two<\/li><li>List item three<\/li><li>List item four<\/li><\/ul>\n<!-- \/wp:list -->\n\n<!-- wp:heading -->\n<h2 id=\"ordered-list\">Ordered List<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol><li>List item one\n<ol>\n<li>List item one\n<ol>\n<li>List item one<\/li>\n<li>List item two<\/li>\n<li>List item three<\/li>\n<li>List item four<\/li>\n<\/ol>\n<\/li>\n<li>List item two<\/li>\n<li>List item three<\/li>\n<li>List item four<\/li>\n<\/ol>\n<\/li><li>List item two<\/li><li>List item three<\/li><li>List item four<\/li><\/ol>\n<!-- \/wp:list -->\n\n<!-- wp:heading -->\n<h2 id=\"mixed-list-nested\">Mixed List (Nested)<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:list -->\n<ul><li>Unordered list item one<\/li><li>Unordered list item two\n<ol>\n<li>Ordered list item one<\/li>\n<li>Ordered list item two\n<ul>\n<li>Unordered list item one<\/li>\n<li>Unordered list item two\n<ol>\n<li>Ordered list item one<\/li>\n<li>Ordered list item two<\/li>\n<li>Ordered list item three<\/li>\n<\/ol>\n<\/li>\n<li>Unordered list item three<\/li>\n<\/ul>\n<\/li>\n<li>Ordered list item three<\/li>\n<\/ol>\n<\/li><li>Unordered list item three<\/li><\/ul>\n<!-- \/wp:list -->\n\n<!-- wp:heading -->\n<h2 id=\"html-tags\">HTML Tags<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:paragraph -->\n<p>These supported tags come from the WordPress.com code <a title=\"Code\" href=\"http:\/\/en.support.wordpress.com\/code\/\">FAQ<\/a>.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Address Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:html -->\n<address>1 Infinite Loop<br>Cupertino, CA 95014<br>United States<\/address>\n<!-- \/wp:html -->\n\n<!-- wp:paragraph -->\n<p><strong>Anchor Tag (aka. Link)<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This is an example of a <a title=\"Apple\" href=\"http:\/\/apple.com\">link<\/a>.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Abbreviation Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The abbreviation <abbr title=\"Seriously\">srsly<\/abbr> stands for \"seriously\".<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Acronym Tag (<em>deprecated in HTML5<\/em>)<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The acronym <acronym title=\"For The Win\">ftw<\/acronym> stands for \"for the win\".<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Big Tag&nbsp;<strong>(<em>deprecated in HTML5<\/em>)<\/strong><\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>These tests are a <big>big<\/big> deal, but this tag is no longer supported in HTML5.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Cite Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>\"Code is poetry.\" --<cite>Automattic<\/cite><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Code Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><code>Code tag test<\/code><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>You will learn later on in these tests that <code>word-wrap: break-word;<\/code> will be your best friend.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Delete Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This tag will let you <del>strikeout text<\/del>, but this tag is no longer supported in HTML5 (use the <code>&lt;strike&gt;<\/code> instead).<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Emphasize Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The emphasize tag should <em>italicize<\/em> text.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Insert Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This tag should denote <ins>inserted<\/ins> text.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Keyboard Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This scarsely known tag emulates <kbd>keyboard text<\/kbd>, which is usually styled like the <code>&lt;code&gt;<\/code> tag.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Preformatted Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This tag styles large blocks of code.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:preformatted -->\n<pre class=\"wp-block-preformatted\">.post-title {\n\tmargin: 0 0 5px;\n\tfont-weight: bold;\n\tfont-size: 38px;\n\tline-height: 1.2;\n\tand here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;\n}<\/pre>\n<!-- \/wp:preformatted -->\n\n<!-- wp:paragraph -->\n<p><strong>Quote Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><q>Developers, developers, developers...<\/q> --Steve Ballmer<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Strike Tag&nbsp;<strong>(<em>deprecated in HTML5<\/em>)<\/strong><\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This tag shows <span style=\"text-decoration:line-through;\">strike-through text<\/span><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Strong Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This tag shows <strong>bold<strong> text.<\/strong><\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Subscript Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Getting our science styling on with H<sub>2<\/sub>O, which should push the \"2\" down.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Superscript Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Still sticking with science and Isaac Newton's E = MC<sup>2<\/sup>, which should lift the 2 up.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Teletype Tag&nbsp;<strong>(<em>deprecated in HTML5<\/em>)<\/strong><\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This rarely used tag emulates <tt>teletype text<\/tt>, which is usually styled like the <code>&lt;code&gt;<\/code> tag.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Variable Tag<\/strong><\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This allows you to denote <var>variables<\/var>.<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "style-guide",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 14,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Come Sail Away with Me",
+            "post_content": "<!-- wp:paragraph -->\n<p>On crossing the imaginary line drawn from Punta Mala to <a href=\"http:\/\/\/twentysixteendemo.wordpress.com\">Azuera<\/a> the ships from Europe bound to Sulaco lose at once the strong breezes of the ocean. They become the prey of capricious airs that play with them for thirty hours at a stretch sometimes. Before them the head of the calm gulf is filled on most days of the year by a great body of motionless and opaque clouds. On the rare clear mornings another shadow is cast upon the sweep of the gulf.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:image {\"align\":\"none\",\"id\":7,\"className\":\"wp-image-7 size-full\"} -->\n<figure class=\"wp-block-image alignnone wp-image-7 size-full\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/post.png\" alt=\"post\" class=\"wp-image-7\" \/><figcaption>Full size image larger than or equal to 840px width overflows to the left.<\/figcaption><\/figure>\n<!-- \/wp:image -->\n\n<!-- wp:paragraph -->\n<p>The dawn breaks high behind the towering and serrated wall of the Cordillera, a clear-cut vision of dark peaks rearing their steep slopes on a lofty pedestal of forest rising from the very edge of the shore. Amongst them the white head of Higuerota rises majestically upon the blue. Bare clusters of enormous rocks sprinkle with tiny black dots the smooth dome of snow.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Then, as the midday sun withdraws from the gulf the shadow of the mountains, the clouds begin to roll out of the lower valleys. They swathe in sombre tatters the naked crags of precipices above the wooded slopes, hide the peaks, smoke in stormy trails across the snows of Higuerota. The Cordillera is gone from you as if it had dissolved itself into great piles of grey and black vapours that travel out slowly to seaward and vanish into thin air all along the front before the blazing heat of the day. The wasting edge of the cloud-bank always strives for, but seldom wins, the middle of the gulf. The sun\u2014as the sailors say\u2014is eating it up. Unless perchance a sombre thunder-head breaks away from the main body to career all over the gulf till it escapes into the offing beyond Azuera, where it bursts suddenly into flame and crashes like a sinster pirate-ship of the air, hove-to above the horizon, engaging the sea.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Indeed, these cloudy nights are proverbial with the seamen along the whole west coast of a great continent.<\/p><\/blockquote>\n<!-- \/wp:quote -->\n\n<!-- wp:paragraph -->\n<p>At night the body of clouds advancing higher up the sky smothers the whole quiet gulf below with an impenetrable darkness, in which the sound of the falling showers can be heard beginning and ceasing abruptly\u2014now here, now there. Indeed, these cloudy nights are proverbial with the seamen along the whole west coast of a great continent. Sky, land, and sea disappear together out of the world when the Placido\u2014as the saying is\u2014goes to sleep under its black poncho. The few stars left below the seaward frown of the vault shine feebly as into the mouth of a black cavern. In its vastness your ship floats unseen under your feet, her sails flutter invisible above your head. The eye of God Himself\u2014they add with grim profanity\u2014could not find out what work a man's hand is doing in there; and you would be free to call the devil to your aid with impunity if even his malice were not defeated by such a blind darkness.<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "come-sail-away-with-me",
+            "post_excerpt": "Individually, we are one drop. Together, we are an ocean.",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "open",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 6,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Adventures"
+                ],
+                "post_tag_name": [
+                    "beautiful"
+                ]
+            },
+            "hs_custom_meta": "_hs_extra",
+            "sticky": true
+        },
+        {
+            "post_type": "post",
+            "post_title": "Standard Format with Featured Image",
+            "post_content": "<!-- wp:paragraph -->\n<p>At night the body of clouds advancing higher up the sky smothers the whole quiet gulf below with an impenetrable darkness, in which the sound of the falling showers can be heard beginning and ceasing abruptly\u2014now here, now there. Indeed, these cloudy nights are proverbial with the seamen along the whole west coast of a great continent. Sky, land, and sea disappear together out of the world when the Placido\u2014as the saying is\u2014goes to sleep under its black poncho. The few stars left below the seaward frown of the vault shine feebly as into the mouth of a black cavern. In its vastness your ship floats unseen under your feet, her sails flutter invisible above your head. The eye of God Himself\u2014they add with grim profanity\u2014could not find out what work a man's hand is doing in there; and you would be free to call the devil to your aid with impunity if even his malice were not defeated by such a blind darkness.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:image {\"align\":\"none\",\"id\":47} -->\n<figure class=\"wp-block-image alignnone\"><a href=\"https:\/\/twentysixteendemo.wordpress.com\/style-guide\/image-alignments\/tjejuqghjcw-luke-pamer\/\" rel=\" rel=&quot;attachment wp-att-47&quot;\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/tjejuqghjcw-luke-pamer.jpg?w=840\" alt=\"Other sizes \u2014 Large, Medium, Thumbnail stay inside this column.\" class=\"wp-image-47\" \/><\/a><figcaption>Other sizes \u2014 Large, Medium, Thumbnail stay inside this column.<\/figcaption><\/figure>\n<!-- \/wp:image -->\n\n<!-- wp:paragraph -->\n<p>The shores on the gulf are steep-to all round; three uninhabited islets basking in the sunshine just outside the cloud veil, and opposite the entrance to the harbour of Sulaco, bear the name of \"The Isabels.\"<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>There is the Great Isabel; the Little Isabel, which is round; and Hermosa, which is the smallest.<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "standard-format-with-featured-image",
+            "post_excerpt": "The few stars left below the seaward frown of the vault shine feebly as into the mouth of a black cavern.",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 10,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Abroad"
+                ],
+                "post_tag_name": [
+                    "landscape"
+                ]
+            },
+            "hs_custom_meta": "_hs_extra",
+            "attachment_url": "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/12\/photo-1444703686981-a3abbc4d4fe3.jpg"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Standard Format Without Featured Image",
+            "post_content": "<!-- wp:paragraph -->\n<p>The mob, driven away from the Custom House, had broken up into several bands, retreating across the plain in the direction of the town. The subdued crash of irregular volleys fired in the distance was answered by faint yells far away. In the intervals the single shots rang feebly, and the low, long, white building blinded in every window seemed to be the centre of a turmoil widening in a great circle about its closed-up silence. But the cautious movements and whispers of a routed party seeking a momentary shelter behind the wall made the darkness of the room, striped by threads of quiet sunlight, alight with evil, stealthy sounds. The Violas had them in their ears as though invisible ghosts hovering about their chairs had consulted in mutters as to the advisability of setting fire to this foreigner's casa.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>It was trying to the nerves. Old Viola had risen slowly, gun in hand, irresolute, for he did not see how he could prevent them. Already voices could be heard talking at the back. Signora Teresa was beside herself with terror.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>\"Ah! the traitor! the traitor!\" she mumbled, almost inaudibly. \"Now we are going to be burnt; and I bent my knee to him. No! he must run at the heels of his English.\"<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>She seemed to think that Nostromo's mere presence in the house would have made it perfectly safe. So far, she, too, was under the spell of that reputation the Capataz de Cargadores had made for himself by the waterside, along the railway line, with the English and with the populace of Sulaco. To his face, and even against her husband, she invariably affected to laugh it to scorn, sometimes good-naturedly, more often with a curious bitterness. But then women are unreasonable in their opinions, as Giorgio used to remark calmly on fitting occasions. On this occasion, with his gun held at ready before him, he stooped down to his wife's head, and, keeping his eyes steadfastly on the barricaded door, he breathed out into her ear that Nostromo would have been powerless to help. What could two men shut up in a house do against twenty or more bent upon setting fire to the roof? Gian' Battista was thinking of the casa all the time, he was sure.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>\"He think of the casa! He!\" gasped Signora Viola, crazily. She struck her breast with her open hands. \"I know him. He thinks of nobody but himself.\"<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "standard-format-without-featured-image",
+            "post_excerpt": "The Violas had them in their ears as though invisible ghosts hovering about their chairs had consulted in mutters as to the advisability of setting fire to this foreigner's casa.",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 95,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Adventures"
+                ],
+                "post_tag_name": [
+                    "collaboration"
+                ]
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Block Quote Example",
+            "post_content": "<!-- wp:paragraph -->\n<p>Meantime Giorgio, with tranquil movements, had been unfastening the door; the flood of light fell on Signora Teresa, with her two girls gathered to her side, a picturesque woman in a pose of maternal exaltation. Behind her the wall was dazzlingly white, and the crude colours of the Garibaldi lithograph paled in the sunshine.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Old Viola, at the door, moved his arm upwards as if referring all his quick, fleeting thoughts to the picture of his old chief on the wall. Even when he was cooking for the \"Signori Inglesi\"\u2014the engineers (he was a famous cook, though the kitchen was a dark place)\u2014he was, as it were, under the eye of the great man who had led him in a glorious struggle where, under the walls of Gaeta, tyranny would have expired for ever had it not been for that accursed Piedmontese race of kings and ministers. When sometimes a frying-pan caught fire during a delicate operation with some shredded onions, and the old man was seen backing out of the doorway, swearing and coughing violently in an acrid cloud of smoke, the name of Cavour\u2014the arch intriguer sold to kings and tyrants\u2014could be heard involved in imprecations against the China girls, cooking in general, and the brute of a country where he was reduced to live for the love of liberty that traitor had strangled.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Giorgio! thou passionate man! Misericordia Divina! In the sun like this! He will make himself ill.<\/p><\/blockquote>\n<!-- \/wp:quote -->\n\n<!-- wp:paragraph -->\n<p>Then Signora Teresa, all in black, issuing from another door, advanced, portly and anxious, inclining her fine, black-browed head, opening her arms, and crying in a profound tone \u2014 \"Giorgio! thou passionate man! Misericordia Divina! In the sun like this! He will make himself ill.\" At her feet the hens made off in all directions, with immense strides; if there were any engineers from up the line staying in Sulaco, a young English face or two would appear at the billiard-room occupying one end of the house; but at the other end, in the cafe, Luis, the mulatto, took good care not to show himself. The Indian girls, with hair like flowing black manes, and dressed only in a shift and short petticoat, stared dully from under the square-cut fringes on their foreheads; the noisy frizzling of fat had stopped, the fumes floated upwards in sunshine, a strong smell of burnt onions hung in the drowsy heat, enveloping the house; and the eye lost itself in a vast flat expanse of grass to the west, as if the plain between the Sierra overtopping Sulaco and the coast range away there towards Esmeralda had been as big as half the world.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:image {\"id\":116} -->\n<figure class=\"wp-block-image\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/12\/cropped-photo-1425678098790-ee926fa1bbc9.jpg\" alt=\"cropped-photo-1425678098790-ee926fa1bbc9.jpg\" class=\"wp-image-116\" \/><\/figure>\n<!-- \/wp:image -->\n\n<!-- wp:paragraph -->\n<p>Signora Teresa, after an impressive pause, remonstrated \u2014 \"Eh, Giorgio! Leave Cavour alone and take care of yourself now we are lost in this country all alone with the two children, because you cannot live under a king.\"<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Eh, Giorgio! Leave Cavour alone and take care of yourself now we are lost in this country all alone with the two children, because you cannot live under a king.<\/p><\/blockquote>\n<!-- \/wp:quote -->\n\n<!-- wp:paragraph -->\n<p>And while she looked at him she would sometimes put her hand hastily to her side with a short twitch of her fine lips and a knitting of her black, straight eyebrows like a flicker of angry pain or an angry thought on her handsome, regular features.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>It was pain; she suppressed the twinge. It had come to her first a few years after they had left Italy to emigrate to America and settle at last in Sulaco after wandering from town to town, trying shopkeeping in a small way here and there; and once an organized enterprise of fishing\u2014in Maldonado\u2014for Giorgio, like the great Garibaldi, had been a sailor in his time.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Sometimes she had no patience with pain. For years its gnawing had been part of the landscape embracing the glitter of the harbour under the wooded spurs of the range; and the sunshine itself was heavy and dull\u2014heavy with pain\u2014not like the sunshine of her girlhood, in which middle-aged Giorgio had wooed her gravely and passionately on the shores of the gulf of Spezzia.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>You go in at once, Giorgio<\/p><\/blockquote>\n<!-- \/wp:quote -->\n\n<!-- wp:paragraph -->\n<p>\"You go in at once, Giorgio,\" she directed. \"One would think you do not wish to have any pity on me\u2014with four Signori Inglesi staying in the house.\" \"Va bene, va bene,\" Giorgio would mutter. He obeyed. The Signori Inglesi would require their midday meal presently. He had been one of the immortal and invincible band of liberators who had made the mercenaries of tyranny fly like chaff before a hurricane, \"un uragano terribile.\" But that was before he was married and had children; and before tyranny had reared its head again amongst the traitors who had imprisoned Garibaldi, his hero.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>There were three doors in the front of the house, and each afternoon the Garibaldino could be seen at one or another of them with his big bush of white hair, his arms folded, his legs crossed, leaning back his leonine head against the side, and looking up the wooded slopes of the foothills at the snowy dome of Higuerota. The front of his house threw off a black long rectangle of shade, broadening slowly over the soft ox-cart track. Through the gaps, chopped out in the oleander hedges, the harbour branch railway, laid out temporarily on the level of the plain, curved away its shining parallel ribbons on a belt of scorched and withered grass within sixty yards of the end of the house. In the evening the empty material trains of flat cars circled round the dark green grove of Sulaco, and ran, undulating slightly with white jets of steam, over the plain towards the Casa Viola, on their way to the railway yards by the harbour. The Italian drivers saluted him from the foot-plate with raised hand, while the negro brakesmen sat carelessly on the brakes, looking straight forward, with the rims of their big hats flapping in the wind. In return Giorgio would give a slight sideways jerk of the head, without unfolding his arms.<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "block-quote-example",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 97,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Books"
+                ],
+                "post_tag_name": [
+                    "announcement"
+                ]
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Multiple Page Post Example",
+            "post_content": "<!-- wp:paragraph -->\n<p>The only sign of commercial activity within the harbour, visible from the beach of the Great Isabel, is the square blunt end of the wooden jetty which the Oceanic Steam Navigation Company (the O.S.N. of familiar speech) had thrown over the shallow part of the bay soon after they had resolved to make of Sulaco one of their ports of call for the Republic of Costaguana. The State possesses several harbours on its long seaboard, but except Cayta, an important place, all are either small and inconvenient inlets in an iron-bound coast\u2014like Esmeralda, for instance, sixty miles to the south\u2014or else mere open roadsteads exposed to the winds and fretted by the surf.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:image {\"align\":\"none\",\"id\":11} -->\n<figure class=\"wp-block-image alignnone\"><a href=\"https:\/\/twentysixteendemo.wordpress.com\/2015\/11\/30\/standard-format-with-featured-image\/photo-1427301229091-8cd171473e32\/\" rel=\" rel=&quot;attachment wp-att-11&quot;\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/photo-1427301229091-8cd171473e32.jpg\" alt=\"photo-1427301229091-8cd171473e32\" class=\"wp-image-11\" \/><\/a><figcaption>Full size image larger than or equal to 840px width overflows to the left.<\/figcaption><\/figure>\n<!-- \/wp:image -->\n\n<!-- wp:paragraph -->\n<p>Perhaps the very atmospheric conditions which had kept away the merchant fleets of bygone ages induced the O.S.N. Company to violate the sanctuary of peace sheltering the calm existence of Sulaco. The variable airs sporting lightly with the vast semicircle of waters within the head of Azuera could not baffle the steam power of their excellent fleet. Year after year the black hulls of their ships had gone up and down the coast, in and out, past Azuera, past the Isabels, past Punta Mala\u2014disregarding everything but the tyranny of time. Their names, the names of all mythology, became the household words of a coast that had never been ruled by the gods of Olympus. The Juno was known only for her comfortable cabins amidships, the Saturn for the geniality of her captain and the painted and gilt luxuriousness of her saloon, whereas the Ganymede was fitted out mainly for cattle transport, and to be avoided by coastwise passengers. The humblest Indian in the obscurest village on the coast was familiar with the Cerberus, a little black puffer without charm or living accommodation to speak of, whose mission was to creep inshore along the wooded beaches close to mighty ugly rocks, stopping obligingly before every cluster of huts to collect produce, down to three-pound parcels of indiarubber bound in a wrapper of dry grass.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>And as they seldom failed to account for the smallest package, rarely lost a bullock, and had never drowned a single passenger, the name of the O.S.N. stood very high for trustworthiness. People declared that under the Company's care their lives and property were safer on the water than in their own houses on shore.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:nextpage -->\n<!--nextpage-->\n<!-- \/wp:nextpage -->\n\n<!-- wp:paragraph -->\n<p>The O.S.N.'s superintendent in Sulaco for the whole Costaguana section of the service was very proud of his Company's standing. He resumed it in a saying which was very often on his lips, \"We never make mistakes.\" To the Company's officers it took the form of a severe injunction, \"We must make no mistakes. I'll have no mistakes here, no matter what Smith may do at his end.\"<br>Smith, on whom he had never set eyes in his life, was the other superintendent of the service, quartered some fifteen hundred miles away from Sulaco. \"Don't talk to me of your Smith.\"<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Then, calming down suddenly, he would dismiss the subject with studied negligence.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>\"Smith knows no more of this continent than a baby.\"<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>\"Our excellent Senor Mitchell\" for the business and official world of Sulaco; \"Fussy Joe\" for the commanders of the Company's ships, Captain Joseph Mitchell prided himself on his profound knowledge of men and things in the country\u2014cosas de Costaguana. Amongst these last he accounted as most unfavourable to the orderly working of his Company the frequent changes of government brought about by revolutions of the military type.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:image {\"align\":\"none\",\"id\":61} -->\n<figure class=\"wp-block-image alignnone\"><a href=\"https:\/\/twentysixteendemo.wordpress.com\/2015\/11\/27\/gallery-post-format-example\/photo-1425678098790-ee926fa1bbc9\/\" rel=\" rel=&quot;attachment wp-att-61&quot;\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/12\/photo-1425678098790-ee926fa1bbc9.jpg?w=840\" alt=\"photo-1425678098790-ee926fa1bbc9\" class=\"wp-image-61\" \/><\/a><figcaption>Non full size \u2014 Large, Medium, Thumbnail stay inside this column.<\/figcaption><\/figure>\n<!-- \/wp:image -->\n\n<!-- wp:paragraph -->\n<p>The political atmosphere of the Republic was generally stormy in these days. The fugitive patriots of the defeated party had the knack of turning up again on the coast with half a steamer's load of small arms and ammunition. Such resourcefulness Captain Mitchell considered as perfectly wonderful in view of their utter destitution at the time of flight. He had observed that \"they never seemed to have enough change about them to pay for their passage ticket out of the country.\" And he could speak with knowledge; for on a memorable occasion he had been called upon to save the life of a dictator, together with the lives of a few Sulaco officials\u2014the political chief, the director of the customs, and the head of police\u2014belonging to an overturned government. Poor Senor Ribiera (such was the dictator's name) had come pelting eighty miles over mountain tracks after the lost battle of Socorro, in the hope of out-distancing the fatal news\u2014which, of course, he could not manage to do on a lame mule. The animal, moreover, expired under him at the end of the Alameda, where the military band plays sometimes in the evenings between the revolutions. \"Sir,\" Captain Mitchell would pursue with portentous gravity, \"the ill-timed end of that mule attracted attention to the unfortunate rider. His features were recognized by several deserters from the Dictatorial army amongst the rascally mob already engaged in smashing the windows of the Intendencia.\"<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:nextpage -->\n<!--nextpage-->\n<!-- \/wp:nextpage -->\n\n<!-- wp:paragraph -->\n<p>Early on the morning of that day the local authorities of Sulaco had fled for refuge to the O.S.N. Company's offices, a strong building near the shore end of the jetty, leaving the town to the mercies of a revolutionary rabble; and as the Dictator was execrated by the populace on account of the severe recruitment law his necessities had compelled him to enforce during the struggle, he stood a good chance of being torn to pieces. Providentially, Nostromo\u2014invaluable fellow\u2014with some Italian workmen, imported to work upon the National Central Railway, was at hand, and managed to snatch him away\u2014for the time at least. Ultimately, Captain Mitchell succeeded in taking everybody off in his own gig to one of the Company's steamers\u2014it was the Minerva\u2014just then, as luck would have it, entering the harbour.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:image {\"align\":\"right\",\"id\":51} -->\n<div class=\"wp-block-image\"><figure class=\"alignright\"><a href=\"https:\/\/twentysixteendemo.wordpress.com\/style-guide\/image-alignments\/aqoodwdypis-colton-brown\/\" rel=\" rel=&quot;attachment wp-att-51&quot;\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/aqoodwdypis-colton-brown.jpg?w=300\" alt=\"aqoodwdypis-colton-brown\" class=\"wp-image-51\" \/><\/a><figcaption>Medium size, right aligned image.<\/figcaption><\/figure><\/div>\n<!-- \/wp:image -->\n\n<!-- wp:paragraph -->\n<p>He had to lower these gentlemen at the end of a rope out of a hole in the wall at the back, while the mob which, pouring out of the town, had spread itself all along the shore, howled and foamed at the foot of the building in front. He had to hurry them then the whole length of the jetty; it had been a desperate dash, neck or nothing\u2014and again it was Nostromo, a fellow in a thousand, who, at the head, this time, of the Company's body of lightermen, held the jetty against the rushes of the rabble, thus giving the fugitives time to reach the gig lying ready for them at the other end with the Company's flag at the stern. Sticks, stones, shots flew; knives, too, were thrown. Captain Mitchell exhibited willingly the long cicatrice of a cut over his left ear and temple, made by a razor-blade fastened to a stick\u2014a weapon, he explained, very much in favour with the \"worst kind of nigger out here.\"<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:nextpage -->\n<!--nextpage-->\n<!-- \/wp:nextpage -->\n\n<!-- wp:paragraph -->\n<p>Captain Mitchell was a thick, elderly man, wearing high, pointed collars and short side-whiskers, partial to white waistcoats, and really very communicative under his air of pompous reserve.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>\"These gentlemen,\" he would say, staring with great solemnity, \"had to run like rabbits, sir. I ran like a rabbit myself. Certain forms of death are\u2014er\u2014distasteful to a\u2014a\u2014er\u2014respectable man. They would have pounded me to death, too. A crazy mob, sir, does not discriminate. Under providence we owed our preservation to my Capataz de Cargadores, as they called him in the town, a man who, when I discovered his value, sir, was just the bos'n of an Italian ship, a big Genoese ship, one of the few European ships that ever came to Sulaco with a general cargo before the building of the National Central. He left her on account of some very respectable friends he made here, his own countrymen, but also, I suppose, to better himself. Sir, I am a pretty good judge of character. I engaged him to be the foreman of our lightermen, and caretaker of our jetty. That's all that he was. But without him Senor Ribiera would have been a dead man. This Nostromo, sir, a man absolutely above reproach, became the terror of all the thieves in the town. We were infested, infested, overrun, sir, here at that time by ladrones and matreros, thieves and murderers from the whole province. On this occasion they had been flocking into Sulaco for a week past. They had scented the end, sir. Fifty per cent. of that murdering mob were professional bandits from the Campo, sir, but there wasn't one that hadn't heard of Nostromo. As to the town leperos, sir, the sight of his black whiskers and white teeth was enough for them. They quailed before him, sir. That's what the force of character will do for you.\"<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>It could very well be said that it was Nostromo alone who saved the lives of these gentlemen. Captain Mitchell, on his part, never left them till he had seen them collapse, panting, terrified, and exasperated, but safe, on the luxuriant velvet sofas in the first-class saloon of the Minerva. To the very last he had been careful to address the ex-Dictator as \"Your Excellency.\"<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "multiple-page-post-example",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 72,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Championship"
+                ],
+                "post_tag_name": [
+                    "thermonuclear"
+                ]
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "More Tag Example",
+            "post_content": "<!-- wp:paragraph -->\n<p>It might have been said that there he was only protecting his own. From the first he had been admitted to live in the intimacy of the family of the hotel-keeper who was a countryman of his. Old Giorgio Viola, a Genoese with a shaggy white leonine head\u2014often called simply \"the Garibaldino\" (as Mohammedans are called after their prophet)\u2014was, to use Captain Mitchell's own words, the \"respectable married friend\" by whose advice Nostromo had left his ship to try for a run of shore luck in Costaguana.<br>The old man, full of scorn for the populace, as your austere republican so often is, had disregarded the preliminary sounds of trouble. He went on that day as usual pottering about the \"casa\" in his slippers, muttering angrily to himself his contempt of the non-political nature of the riot, and shrugging his shoulders. In the end he was taken unawares by the out-rush of the rabble. It was too late then to remove his family, and, indeed, where could he have run to with the portly Signora Teresa and two little girls on that great plain? So, barricading every opening, the old man sat down sternly in the middle of the darkened cafe with an old shot-gun on his knees. His wife sat on another chair by his side, muttering pious invocations to all the saints of the calendar.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The old republican did not believe in saints, or in prayers, or in what he called \"priest's religion.\" Liberty and Garibaldi were his divinities; but he tolerated \"superstition\" in women, preserving in these matters a lofty and silent attitude.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>His two girls, the eldest fourteen, and the other two years younger, crouched on the sanded floor, on each side of the Signora Teresa, with their heads on their mother's lap, both scared, but each in her own way, the dark-haired Linda indignant and angry, the fair Giselle, the younger, bewildered and resigned. The Patrona removed her arms, which embraced her daughters, for a moment to cross herself and wring her hands hurriedly. She moaned a little louder.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>\"Oh! Gian' Battista, why art thou not here? Oh! why art thou not here?\"<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>She was not then invoking the saint himself, but calling upon Nostromo, whose patron he was. And Giorgio, motionless on the chair by her side, would be provoked by these reproachful and distracted appeals.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>\"Peace, woman! Where's the sense of it? There's his duty,\" he murmured in the dark; and she would retort, panting\u2014<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>\"Eh! I have no patience. Duty! What of the woman who has been like a mother to him? I bent my knee to him this morning; don't you go out, Gian' Battista\u2014stop in the house, Battistino\u2014look at those two little innocent children!\" <\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:more -->\n<!--more-->\n<!-- \/wp:more -->\n\n<!-- wp:paragraph -->\n<p>Mrs. Viola was an Italian, too, a native of Spezzia, and though considerably younger than her husband, already middle-aged. She had a handsome face, whose complexion had turned yellow because the climate of Sulaco did not suit her at all. Her voice was a rich contralto. When, with her arms folded tight under her ample bosom, she scolded the squat, thick-legged China girls handling linen, plucking fowls, pounding corn in wooden mortars amongst the mud outbuildings at the back of the house, she could bring out such an impassioned, vibrating, sepulchral note that the chained watch-dog bolted into his kennel with a great rattle. Luis, a cinnamon-coloured mulatto with a sprouting moustache and thick, dark lips, would stop sweeping the cafe with a broom of palm-leaves to let a gentle shudder run down his spine. His languishing almond eyes would remain closed for a long time.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>This was the staff of the Casa Viola, but all these people had fled early that morning at the first sounds of the riot, preferring to hide on the plain rather than trust themselves in the house; a preference for which they were in no way to blame, since, whether true or not, it was generally believed in the town that the Garibaldino had some money buried under the clay floor of the kitchen. The dog, an irritable, shaggy brute, barked violently and whined plaintively in turns at the back, running in and out of his kennel as rage or fear prompted him.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Bursts of great shouting rose and died away, like wild gusts of wind on the plain round the barricaded house; the fitful popping of shots grew louder above the yelling. Sometimes there were intervals of unaccountable stillness outside, and nothing could have been more gaily peaceful than the narrow bright lines of sunlight from the cracks in the shutters, ruled straight across the cafe over the disarranged chairs and tables to the wall opposite. Old Giorgio had chosen that bare, whitewashed room for a retreat. It had only one window, and its only door swung out upon the track of thick dust fenced by aloe hedges between the harbour and the town, where clumsy carts used to creak along behind slow yokes of oxen guided by boys on horseback.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>In a pause of stillness Giorgio cocked his gun. The ominous sound wrung a low moan from the rigid figure of the woman sitting by his side. A sudden outbreak of defiant yelling quite near the house sank all at once to a confused murmur of growls.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Somebody ran along; the loud catching of his breath was heard for an instant passing the door; there were hoarse mutters and footsteps near the wall; a shoulder rubbed against the shutter, effacing the bright lines of sunshine pencilled across the whole breadth of the room. Signora Teresa's arms thrown about the kneeling forms of her daughters embraced them closer with a convulsive pressure.<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "more-tag-example",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 92,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Adventures"
+                ],
+                "post_tag_name": [
+                    "punctilious"
+                ]
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Image Post Format",
+            "post_content": "<!-- wp:image {\"id\":55,\"linkDestination\":\"custom\"} -->\n<figure class=\"wp-block-image\"><a href=\"https:\/\/twentysixteendemo.wordpress.com\/2015\/12\/01\/image-post-format\/image-format\/\" rel=\" rel=&quot;attachment wp-att-55&quot;\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/12\/image-format.jpg?w=840\" alt=\"image-format\" class=\"wp-image-55\" \/><\/a><\/figure>\n<!-- \/wp:image -->",
+            "post_name": "image-post-format",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 54,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Bay"
+                ],
+                "post_tag_name": [
+                    "professional"
+                ]
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Aside Post Format Example",
+            "post_content": "<!-- wp:paragraph -->\n<p>Sometimes a short post is all it takes to get your point across. Which is the point of this post.<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "aside-post-format-example",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 58,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Books"
+                ],
+                "post_tag_name": [
+                    "panache"
+                ]
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Gallery Post Format Example",
+            "post_content": "<!-- wp:jetpack\/tiled-gallery {\"columnWidths\":[[\"66.77454\",\"33.22546\"],[\"33.33333\",\"33.33333\",\"33.33333\"]],\"ids\":[51,49,47,46,43,11]} -->\n<div class=\"wp-block-jetpack-tiled-gallery aligncenter is-style-rectangular\"><div class=\"tiled-gallery__gallery\"><div class=\"tiled-gallery__row\"><div class=\"tiled-gallery__col\" style=\"flex-basis:66.77454%;\"><figure class=\"tiled-gallery__item\"><img alt=\"\" data-id=\"51\" data-url=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/aqoodwdypis-colton-brown.jpg\" src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/aqoodwdypis-colton-brown.jpg\" data-amp-layout=\"responsive\" \/><\/figure><\/div><div class=\"tiled-gallery__col\" style=\"flex-basis:33.22546%;\"><figure class=\"tiled-gallery__item\"><img alt=\"\" data-id=\"49\" data-url=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/tr8gjw-vi3y-saul-cuellar.jpg\" src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/tr8gjw-vi3y-saul-cuellar.jpg\" data-amp-layout=\"responsive\" \/><\/figure><figure class=\"tiled-gallery__item\"><img alt=\"\" data-id=\"47\" data-url=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/tjejuqghjcw-luke-pamer.jpg\" src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/tjejuqghjcw-luke-pamer.jpg\" data-amp-layout=\"responsive\" \/><\/figure><\/div><\/div><div class=\"tiled-gallery__row\"><div class=\"tiled-gallery__col\" style=\"flex-basis:33.33333%;\"><figure class=\"tiled-gallery__item\"><img alt=\"\" data-id=\"46\" data-url=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/qmemudqzrxq-nick-scheerbart.jpg\" src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/qmemudqzrxq-nick-scheerbart.jpg\" data-amp-layout=\"responsive\" \/><\/figure><\/div><div class=\"tiled-gallery__col\" style=\"flex-basis:33.33333%;\"><figure class=\"tiled-gallery__item\"><img alt=\"\" data-id=\"43\" data-url=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/6hgsktgpfie-the-anchor.jpg\" src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/6hgsktgpfie-the-anchor.jpg\" data-amp-layout=\"responsive\" \/><\/figure><\/div><div class=\"tiled-gallery__col\" style=\"flex-basis:33.33333%;\"><figure class=\"tiled-gallery__item\"><img alt=\"\" data-id=\"11\" data-url=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/photo-1427301229091-8cd171473e32.jpg\" src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/photo-1427301229091-8cd171473e32.jpg\" data-amp-layout=\"responsive\" \/><\/figure><\/div><\/div><\/div><\/div>\n<!-- \/wp:jetpack\/tiled-gallery -->\n\n<!-- wp:paragraph -->\n<p>With Jetpack\u2019s Tiled Gallery.<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "gallery-post-format-example",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 60,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Bay"
+                ],
+                "post_tag_name": [
+                    "landscape"
+                ]
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Status Post Format Example",
+            "post_content": "<!-- wp:paragraph -->\n<p>This is a test for status format post. The title should be hidden for this format.<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "status-post-format-example",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 70,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Bridges"
+                ],
+                "post_tag_name": [
+                    "collaboration"
+                ]
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Link Post Format Example",
+            "post_content": "<!-- wp:paragraph -->\n<p>Always wanted to be a blogging superstar? Or simply want to learn your way around WordPress.com? Check out <a href=\"http:\/\/learn.wordpress.com\/\">Learn WordPress.com<\/a>.<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "link-post-format-example",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 84,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Business"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Quote Post Format Example",
+            "post_content": "<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>WordPress is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time. <cite>\u2014 <a href=\"http:\/\/wordpress.org\/\">WordPress<\/a><\/cite><\/p><cite>\u2014 <a href=\"http:\/\/wordpress.org\/\">WordPress<\/a><\/cite><\/blockquote>\n<!-- \/wp:quote -->",
+            "post_name": "quote-post-format-example",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 88,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Bridges"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Video Post Format Example",
+            "post_content": "<!-- wp:embed {\"url\":\"http:\/\/youtu.be\/SQEQr7c0-dw\",\"type\":\"video\",\"providerNameSlug\":\"youtube\",\"responsive\":true,\"className\":\"wp-embed-aspect-16-9 wp-has-aspect-ratio\"} -->\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttp:\/\/youtu.be\/SQEQr7c0-dw\n<\/div><\/figure>\n<!-- \/wp:embed -->\n\n<!-- wp:paragraph -->\n<p>Matt Mullenweg on KTEH \"This is Us!\"<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "video-post-format-example",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 86,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Championship"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Chat Post Format Example",
+            "post_content": "<!-- wp:paragraph -->\n<p>Martin: What's with all the strange looking words on some of these posts and pages?<br>Julius: It's Latin.<br>Martin: Ah. Do you read Latin?<br>Julius: Not a word.<br>Martin: That's pretty weird then, isn't it?<br>Julius: Nope, it's just there as filler text.<br>Martin: Like breadcrumbs in meatloaf.<br>Julius: Sort of, I guess. :)<\/p>\n<!-- \/wp:paragraph -->",
+            "post_name": "chat-post-format-example",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 90,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Balance"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "About Twenty Sixteen",
+            "post_content": "<!-- wp:image {\"id\":37} -->\n<figure class=\"wp-block-image\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2011\/06\/twentyfifteen.png\" alt=\"twentyfifteen\" class=\"wp-image-37\" \/><\/figure>\n<!-- \/wp:image -->\n\n<!-- wp:paragraph -->\n<p>Twenty Sixteen is a modernized take on an ever-popular WordPress layout \u2014 the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.<\/p>\n<!-- \/wp:paragraph -->\n\n<!-- wp:image {\"id\":39} -->\n<figure class=\"wp-block-image\"><img src=\"https:\/\/twentysixteendemo.files.wordpress.com\/2011\/06\/twentysixteen-mobiles.png\" alt=\"twentysixteen-mobiles\" class=\"wp-image-39\" \/><\/figure>\n<!-- \/wp:image -->",
+            "post_name": "about-twentysixteen",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "open",
+            "ping_status": "open",
+            "_starter_page_template": "",
+            "hs_old_id": 2,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra",
+            "attachment_url": "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/12\/image-format.jpg"
+        }
+    ],
+    "menus": {
+        "main-menu": {
+            "name": "Main Menu",
+            "items": [
+                {
+                    "menu-item-title": "Home",
+                    "menu-item-db-id": 24,
+                    "menu-item-object-id": "24",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "\/"
+                },
+                {
+                    "menu-item-title": "About",
+                    "menu-item-db-id": 23,
+                    "menu-item-object-id": "2",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "Style Guide",
+                    "menu-item-db-id": 21,
+                    "menu-item-object-id": "14",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "Image Alignments",
+                    "menu-item-db-id": 22,
+                    "menu-item-object-id": "16",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "21",
+                    "menu-item-description": ""
+                }
+            ]
+        },
+        "social-links": {
+            "name": "Social Links",
+            "items": [
+                {
+                    "menu-item-title": "Twitter",
+                    "menu-item-db-id": 104,
+                    "menu-item-object-id": "104",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https:\/\/twitter.com\/"
+                },
+                {
+                    "menu-item-title": "Facebook",
+                    "menu-item-db-id": 105,
+                    "menu-item-object-id": "105",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https:\/\/www.facebook.com\/"
+                },
+                {
+                    "menu-item-title": "Google+",
+                    "menu-item-db-id": 106,
+                    "menu-item-object-id": "106",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/plus.google.com"
+                },
+                {
+                    "menu-item-title": "GitHub",
+                    "menu-item-db-id": 107,
+                    "menu-item-object-id": "107",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/github.com"
+                },
+                {
+                    "menu-item-title": "WordPress.com",
+                    "menu-item-db-id": 108,
+                    "menu-item-object-id": "108",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 5,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/wordpress.com"
+                }
+            ]
+        }
+    },
+    "images": [
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/12\/cropped-photo-1425678098790-ee926fa1bbc9.jpg",
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/12\/photo-1444703686981-a3abbc4d4fe3.jpg",
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/12\/photo-1425678098790-ee926fa1bbc9.jpg",
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/12\/image-format.jpg",
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/aqoodwdypis-colton-brown.jpg",
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/arzvsapw57g-micah-hallahan.jpg",
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/tr8gjw-vi3y-saul-cuellar.jpg",
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/tjejuqghjcw-luke-pamer.jpg",
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/qmemudqzrxq-nick-scheerbart.jpg",
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/6hgsktgpfie-the-anchor.jpg",
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2011\/06\/twentysixteen-mobiles.png",
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2011\/06\/twentyfifteen.png",
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/photo-1427301229091-8cd171473e32.jpg",
+        "https:\/\/twentysixteendemo.files.wordpress.com\/2015\/11\/post.png"
+    ],
+    "meta": {
+        "blog_id": 23844402,
+        "url": "https:\/\/twentysixteendemo.wordpress.com",
+        "update_date": "December 15, 2021, 10:47 pm",
+        "update_timestamp": 1639608430
+    }
+}
