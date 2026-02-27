@@ -1,0 +1,345 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Twenty Sixteen\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-19T05:58:35+00:00\n"
+"PO-Revision-Date: 2023-07-14 11:03:23+0000\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: inc/block-patterns.php:122
+msgid "Call to Action"
+msgstr "कार्यवाई"
+
+#: functions.php:162
+msgid "White"
+msgstr "उजला"
+
+#: functions.php:177
+msgid "Light Blue"
+msgstr "हल्का नीला"
+
+#: functions.php:147
+msgid "Dark Gray"
+msgstr "अंधेरे भूरा "
+
+#: inc/wpcom-colors.php:7
+msgid "Background"
+msgstr "पृष्ठभूमि"
+
+#. translators: %s: Post title.
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo; पर एक विचार"
+
+#. translators: Hidden accessibility text.
+#: searchform.php:24
+msgctxt "submit button"
+msgid "Search"
+msgstr "खोजे"
+
+#: inc/customizer.php:347
+msgid "Red"
+msgstr "लाल"
+
+#. translators: Hidden accessibility text.
+#: searchform.php:16
+msgctxt "label"
+msgid "Search for:"
+msgstr "निम्न को खोजें:"
+
+#: searchform.php:19
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "खोज &hellip;"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: image.php:90
+#: template-parts/content-page.php:40
+#: template-parts/content-search.php:28
+#: template-parts/content-search.php:43
+#: template-parts/content-single.php:48
+#: template-parts/content.php:54
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\"> \"%s\"</span>संपादित करें"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:203
+#: template-parts/content.php:29
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\"> \"%s\"</span>पढ़ना जारी रखें"
+
+#: functions.php:266
+msgid "Add widgets here to appear in your sidebar."
+msgstr "अपने साइडबार में प्रदर्शित करने के लिए यहां विजेट जोड़ें।"
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr "फूटर प्राथमिक मेनू"
+
+#: footer.php:30
+msgid "Footer Social Links Menu"
+msgstr "फूटर सामाजिक कड़ियाँ मेनू"
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "विशेष रुप से प्रदर्शित"
+
+#: template-parts/content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "क्षमा करें, लेकिन कुछ भी आपके खोज शब्दों से मेल नहीं खाते। कृपया कुछ अलग खोजशब्दों के साथ फिर से प्रयास करें।"
+
+#: template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "ऐसा लगता है आप जो देख रहे हैं हमें नहीं मिल रहा है। शायद खोज मदद कर सकता है।"
+
+#. translators: %s: Post editor URL.
+#: template-parts/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "अपनी पहली पोस्ट को प्रकाशित करने के लिए तैयार हैं? <a href=\"%1$s\">यहाँ से शुरुआत करें</a>।"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "कुछ नहीं मिला"
+
+#. translators: %s: The post author display name.
+#: template-parts/biography.php:35
+msgid "View all posts by %s"
+msgstr "%s द्वारा सभी पोस्ट देखें"
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "लेखक:"
+
+#. translators: Hidden accessibility text.
+#: single.php:44
+msgid "Previous post:"
+msgstr "पिछला पोस्ट:"
+
+#: single.php:38
+msgid "Next"
+msgstr "आगे "
+
+#. translators: Hidden accessibility text.
+#: single.php:40
+msgid "Next post:"
+msgstr "अगला पोस्ट:"
+
+#: single.php:42
+msgid "Previous"
+msgstr "पिछला"
+
+#. translators: %s: The search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "%s के लिए खोज परिणाम:"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:121
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "टैग्स"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:111
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "श्रेणियाँ"
+
+#: inc/template-tags.php:106
+#: inc/template-tags.php:116
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:44
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "प्रारूप"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:90
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "पर प्रकाशित किया गया"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:58
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "एक टिप्पणी छोड़ें<span class=\"screen-reader-text\"> %s पर</span>"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:27
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "लेखक"
+
+#: functions.php:202
+#: inc/customizer.php:357
+msgid "Yellow"
+msgstr "पीला"
+
+#: inc/customizer.php:337
+msgid "Gray"
+msgstr "भूरा"
+
+#: inc/customizer.php:327
+msgid "Dark"
+msgstr "गहरा रंग"
+
+#: inc/customizer.php:317
+msgid "Default"
+msgstr "मूलभूत"
+
+#: inc/customizer.php:176
+msgid "Page Background Color"
+msgstr "पृष्ठ की पृष्ठभूमि का रंग"
+
+#: inc/customizer.php:200
+#: inc/wpcom-colors.php:179
+msgid "Link Color"
+msgstr "कड़ी रंग"
+
+#. translators: %s: The current WordPress version.
+#: inc/back-compat.php:45
+#: inc/back-compat.php:62
+#: inc/back-compat.php:85
+msgid "Twenty Sixteen requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "बीस सोलह के लिए कम से कम वर्डप्रेस संस्करण 4.4 की आवश्यकता है। आप संस्करण %s पर चल रहे हैं। अपग्रेड करें और फिर से कोशिश करें।"
+
+#: image.php:109
+#: single.php:31
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">में प्रकाशित</span><span class=\"post-title\">%title</span>"
+
+#: inc/customizer.php:221
+#: inc/wpcom-colors.php:324
+msgid "Main Text Color"
+msgstr "मुख्य टेक्स्ट रंग"
+
+#: inc/customizer.php:242
+#: inc/wpcom-colors.php:403
+msgid "Secondary Text Color"
+msgstr "माध्यमिक टेक्स्ट रंग"
+
+#. translators: Hidden accessibility text.
+#: image.php:79
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "पूर्ण आकार"
+
+#: image.php:58
+#: template-parts/content-page.php:24
+#: template-parts/content-single.php:26
+#: template-parts/content.php:36
+msgid "Pages:"
+msgstr "पृष्ठ:"
+
+#: image.php:26
+msgid "Next Image"
+msgstr "अगली छवि"
+
+#: header.php:59
+msgid "Menu"
+msgstr "मेनू "
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "पिछली छवि"
+
+#. translators: Hidden accessibility text.
+#: header.php:31
+msgid "Skip to content"
+msgstr "सामग्री पर जाएं"
+
+#: functions.php:276
+msgid "Content Bottom 1"
+msgstr "सामग्री तल 1"
+
+#: functions.php:288
+msgid "Content Bottom 2"
+msgstr "सामग्री तल 2"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:327
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:264
+msgid "Sidebar"
+msgstr "साइडबार"
+
+#: functions.php:79
+#: header.php:76
+msgid "Social Links Menu"
+msgstr "सामाजिक कड़ियाँ मेनू"
+
+#: functions.php:78
+#: header.php:63
+msgid "Primary Menu"
+msgstr "प्राथमिक मेनू"
+
+#. Author URI of the theme
+#: footer.php:60
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. translators: %s: WordPress
+#: footer.php:63
+msgid "Proudly powered by %s"
+msgstr "%s द्वारा गर्व के साथ संचालित"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "टिप्पणियाँ बंद कर दी गयी है."
+
+#. translators: Hidden accessibility text.
+#: archive.php:55
+#: image.php:63
+#: index.php:52
+#: search.php:47
+#: template-parts/content-page.php:29
+#: template-parts/content-single.php:31
+#: template-parts/content.php:41
+msgid "Page"
+msgstr "पृष्ठ"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s विचार &ldquo;%2$s&rdquo; पर"
+msgstr[1] "%1$s विचार &ldquo;%2$s&rdquo; पर"
+
+#: archive.php:52
+#: index.php:49
+#: search.php:44
+msgid "Previous page"
+msgstr "पिछला पृष्ठ"
+
+#: archive.php:53
+#: index.php:50
+#: search.php:45
+msgid "Next page"
+msgstr "अगला पृष्ठ"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "ऐसा लगता है कि कुछ भी इस स्थान पर नहीं पाया गया है। शायद एक खोज की कोशिश करें?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "उफ़! वह पृष्ठ नहीं पाया जा सकता है।"
