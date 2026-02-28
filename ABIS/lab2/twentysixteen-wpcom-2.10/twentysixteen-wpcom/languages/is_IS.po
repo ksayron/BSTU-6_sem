@@ -1,0 +1,388 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Twenty Sixteen\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-01-09T04:16:50+00:00\n"
+"PO-Revision-Date: 2025-01-06 14:14:40+0000\n"
+"Language: is\n"
+"Plural-Forms: nplurals=2; plural=(n % 100 != 1 && n % 100 != 21 && n % 100 != 31 && n % 100 != 41 && n % 100 != 51 && n % 100 != 61 && n % 100 != 71 && n % 100 != 81 && n % 100 != 91);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: functions.php:192
+msgid "Dark Red"
+msgstr "Dökk rauður"
+
+#: functions.php:162
+msgid "White"
+msgstr "Hvítur"
+
+#: functions.php:157
+msgid "Light Gray"
+msgstr "Ljós grár"
+
+#: functions.php:152
+msgid "Medium Gray"
+msgstr "Miðlungs grár"
+
+#: functions.php:147
+msgid "Dark Gray"
+msgstr "Dökk grár"
+
+#: inc/wpcom-colors.php:7
+msgid "Background"
+msgstr "Bakgrunnur"
+
+#. translators: %s: Post title.
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Ein athugasemd við &ldquo;%s&rdquo;"
+
+#. translators: Hidden accessibility text.
+#: searchform.php:24
+msgctxt "submit button"
+msgid "Search"
+msgstr "Leita"
+
+#: searchform.php:19
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Leita &hellip;"
+
+#. translators: Hidden accessibility text.
+#: searchform.php:16
+msgctxt "label"
+msgid "Search for:"
+msgstr "Leita eftir:"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:203
+#: template-parts/content.php:29
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Lesa áfram<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/customizer.php:347
+msgid "Red"
+msgstr "Rauður"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: image.php:90
+#: template-parts/content-page.php:40
+#: template-parts/content-search.php:28
+#: template-parts/content-search.php:43
+#: template-parts/content-single.php:48
+#: template-parts/content.php:54
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Breyta<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: functions.php:266
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Bættu við síðuhlutum hér til þess að birta þá í hliðarslánni þinni."
+
+#: footer.php:30
+msgid "Footer Social Links Menu"
+msgstr "Valmynd samfélagsmiðla í fæti"
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr "Aðalvalmynd í fæti"
+
+#. Description of the theme
+#: style.css
+msgid "Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere."
+msgstr "Twenty Sixteen er nútímaleg nálgun á hinu sívinsæla WordPress útliti — láréttur haus með valkvæmri hægri hliðarslá sem virkar fullkomlega fyrir blogg og vefi. Það býður upp á að sérsniðna litasamsetningu með fallegum sjálfgefnum litaþemum, samfelld fljótandi grind sem byggir á snjalltækjavænnri nálgun, hvert smáatriði óaðfinnanlega fínpússað. Twenty Sixteen gerir þitt WordPress fallegt allstaðar."
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "Efst á baugi"
+
+#: template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Það lítur út fyrir að við finnum ekki það sem þú sækist eftir. Hugsanlega hjálpar til að nota leitina."
+
+#: template-parts/content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Því miður, ekkert fannst sem passaði við leitarskilyrðin. Vinsamlega reyndu aftur með öðrum leitarorðum."
+
+#. translators: %s: Post editor URL.
+#: template-parts/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Tilbúinn að gefa út þína fyrstu færslu? <a href=\"%1$s\">Byrjaðu hérna</a>."
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Ekkert fannst"
+
+#. translators: %s: The post author display name.
+#: template-parts/biography.php:35
+msgid "View all posts by %s"
+msgstr "Skoða allar færslur eftir %s"
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "Höfundur:"
+
+#. translators: Hidden accessibility text.
+#: single.php:44
+msgid "Previous post:"
+msgstr "Síðasta grein:"
+
+#: single.php:42
+msgid "Previous"
+msgstr "Til baka"
+
+#. translators: Hidden accessibility text.
+#: single.php:40
+msgid "Next post:"
+msgstr "Næsta grein:"
+
+#: single.php:38
+msgid "Next"
+msgstr "Næsta"
+
+#. translators: %s: The search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Leitarniðurstöður fyrir: %s"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:121
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Efnisorð"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:111
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Flokkar"
+
+#: inc/template-tags.php:106
+#: inc/template-tags.php:116
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:90
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Birt þann"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:58
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Skrifa athugasemd<span class=\"screen-reader-text\"> við %s</span>"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:44
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Snið"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:27
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Höfundur"
+
+#: functions.php:202
+#: inc/customizer.php:357
+msgid "Yellow"
+msgstr "Gulur"
+
+#: inc/customizer.php:337
+msgid "Gray"
+msgstr "Grár"
+
+#: inc/customizer.php:327
+msgid "Dark"
+msgstr "Dökkt"
+
+#: inc/customizer.php:317
+msgid "Default"
+msgstr "Sjálfgefið"
+
+#: inc/customizer.php:242
+#: inc/wpcom-colors.php:403
+msgid "Secondary Text Color"
+msgstr "Annar leturlitur"
+
+#: inc/customizer.php:221
+#: inc/wpcom-colors.php:324
+msgid "Main Text Color"
+msgstr "Aðallitur leturs"
+
+#: inc/customizer.php:200
+#: inc/wpcom-colors.php:179
+msgid "Link Color"
+msgstr "Litur tengils"
+
+#: inc/customizer.php:176
+msgid "Page Background Color"
+msgstr "Bakgrunnslitur síðu"
+
+#: inc/customizer.php:153
+msgid "Base Color Scheme"
+msgstr "Grunn litaþema"
+
+#. translators: %s: The current WordPress version.
+#: inc/back-compat.php:45
+#: inc/back-compat.php:62
+#: inc/back-compat.php:85
+msgid "Twenty Sixteen requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Sixteen þarf útgáfu 4.4 af WordPress eða nýrra. Þú ert að nota útgáfu %s. Vinsamlegast uppfærðu og reyndu aftur."
+
+#: image.php:109
+#: single.php:31
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Birt í</span><span class=\"post-title\">%title</span>"
+
+#. translators: Hidden accessibility text.
+#: image.php:79
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Upprunaleg stærð"
+
+#: image.php:58
+#: template-parts/content-page.php:24
+#: template-parts/content-single.php:26
+#: template-parts/content.php:36
+msgid "Pages:"
+msgstr "Síður:"
+
+#: image.php:26
+msgid "Next Image"
+msgstr "Næsta mynd"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "Fyrri mynd"
+
+#: header.php:59
+msgid "Menu"
+msgstr "Valmynd"
+
+#. translators: Hidden accessibility text.
+#: header.php:31
+msgid "Skip to content"
+msgstr "Fara að efni"
+
+#: functions.php:411
+msgid "collapse child menu"
+msgstr "loka undirvalmynd"
+
+#: functions.php:410
+msgid "expand child menu"
+msgstr "opna undirvalmynd"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:335
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "virkt"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:327
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "virkur"
+
+#. translators: If there are characters in your language that are not supported
+#. by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:319
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "virkur"
+
+#: functions.php:288
+msgid "Content Bottom 2"
+msgstr "Efnis Botn 2"
+
+#: functions.php:278
+#: functions.php:290
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr "Birtist neðst í efni á færslum og síðum."
+
+#: functions.php:276
+msgid "Content Bottom 1"
+msgstr "Efnis Botn 1"
+
+#: functions.php:264
+msgid "Sidebar"
+msgstr "Hliðarslá"
+
+#: functions.php:79
+#: header.php:76
+msgid "Social Links Menu"
+msgstr "Valmynd samfélagsmiðlatengla"
+
+#: functions.php:78
+#: header.php:63
+msgid "Primary Menu"
+msgstr "Aðalvalmynd"
+
+#. translators: %s: WordPress
+#: footer.php:63
+msgid "Proudly powered by %s"
+msgstr "Keyrt með stolti á %s"
+
+#. Author URI of the theme
+#: style.css
+#: footer.php:60
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Lokað er fyrir athugasemdir."
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s athugasemd við &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s athugasemdir við &ldquo;%2$s&rdquo;"
+
+#. translators: Hidden accessibility text.
+#: archive.php:55
+#: image.php:63
+#: index.php:52
+#: search.php:47
+#: template-parts/content-page.php:29
+#: template-parts/content-single.php:31
+#: template-parts/content.php:41
+msgid "Page"
+msgstr "Síða"
+
+#: archive.php:53
+#: index.php:50
+#: search.php:45
+msgid "Next page"
+msgstr "Næsta síða"
+
+#: archive.php:52
+#: index.php:49
+#: search.php:44
+msgid "Previous page"
+msgstr "Fyrri síða"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Svo virðist sem ekkert hafi fundist á þessari slóð. Viltu reyna leitina?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Úbbs! Þessi síða fannst ekki."
