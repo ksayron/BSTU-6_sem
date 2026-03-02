@@ -1,0 +1,406 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Twenty Sixteen\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-19T05:58:51+00:00\n"
+"PO-Revision-Date: 2022-03-22 11:48:56+0000\n"
+"Language: no\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: inc/block-patterns.php:122
+msgid "Call to Action"
+msgstr "Handlingsdriver"
+
+#: functions.php:162
+msgid "White"
+msgstr "Hvit"
+
+#: functions.php:147
+msgid "Dark Gray"
+msgstr "Mørkegrå"
+
+#: functions.php:157
+msgid "Light Gray"
+msgstr "Lysegrå"
+
+#: functions.php:152
+msgid "Medium Gray"
+msgstr "Middels grå"
+
+#: functions.php:177
+msgid "Light Blue"
+msgstr "Lyseblå"
+
+#: functions.php:172
+msgid "Bright Blue"
+msgstr "Opplysende blå"
+
+#: functions.php:182
+msgid "Dark Brown"
+msgstr "Mørkebrun"
+
+#: functions.php:187
+msgid "Medium Brown"
+msgstr "Middels brun"
+
+#: inc/wpcom-colors.php:73
+msgid "Page Background"
+msgstr "Side-bakgrunn"
+
+#: inc/wpcom-colors.php:7
+msgid "Background"
+msgstr "Bakgrunn"
+
+#. translators: %s: Post title.
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Én tanke om &ldquo;%s&rdquo;"
+
+#. translators: Hidden accessibility text.
+#: searchform.php:24
+msgctxt "submit button"
+msgid "Search"
+msgstr "Søk"
+
+#: inc/customizer.php:347
+msgid "Red"
+msgstr "Rød"
+
+#. translators: Hidden accessibility text.
+#: searchform.php:16
+msgctxt "label"
+msgid "Search for:"
+msgstr "Søk etter:"
+
+#: searchform.php:19
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Søk &hellip;"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: image.php:90
+#: template-parts/content-page.php:40
+#: template-parts/content-search.php:28
+#: template-parts/content-search.php:43
+#: template-parts/content-single.php:48
+#: template-parts/content.php:54
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Rediger<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:203
+#: template-parts/content.php:29
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Fortsett å lese<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: footer.php:30
+msgid "Footer Social Links Menu"
+msgstr "Bunnmeny for sosiale lenker"
+
+#: functions.php:266
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Legg til moduler her som skal vises i sidekolonnen din"
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr "Primærmeny på bunnområde"
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "Fremhevet"
+
+#. Description of the theme
+msgid "Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere."
+msgstr "Twenty Sixteen er en modernisert vri på en evig populær layout - den horisontale mastetoppen med en valgfri høyre sidekolonne som virker perfekt for blogger og nettsider. Den har tilpassede fargevalg med vakre standard fargeskjema, et harmonisk flytende rutenett som bruker en \"mobil først\"-tilnærming, og upåklagelig polering i hver detalj. Twenty Sixteen vil få din WordPress til å se vakker ut overalt."
+
+#: template-parts/content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Beklager, men intet passet med dine søkeord. Vennligst prøv igjen med andre søkeord."
+
+#: template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Vi klarer ikke å finne det du leter etter. Kanskje det kan hjelpe å søke."
+
+#. translators: %s: Post editor URL.
+#: template-parts/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klar for å publisere ditt første innlegg? <a href=\"%1$s\">Kom i gang her</a>."
+
+#. translators: %s: The post author display name.
+#: template-parts/biography.php:35
+msgid "View all posts by %s"
+msgstr "Vis alle innlegg av %s"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Ingenting funnet"
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "Forfatter:"
+
+#. translators: Hidden accessibility text.
+#: single.php:44
+msgid "Previous post:"
+msgstr "Forrige innlegg:"
+
+#: single.php:38
+msgid "Next"
+msgstr "Neste"
+
+#: single.php:42
+msgid "Previous"
+msgstr "Forrige"
+
+#. translators: Hidden accessibility text.
+#: single.php:40
+msgid "Next post:"
+msgstr "Neste innlegg:"
+
+#. translators: %s: The search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Søkeresultater for: %s"
+
+#: inc/template-tags.php:106
+#: inc/template-tags.php:116
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:111
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Kategorier"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:121
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Stikkord"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:27
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Forfatter"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:90
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Lagt ut på"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:44
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Format"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:58
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Legg igjen en kommentar<span class=\"screen-reader-text\"> på %s</span>"
+
+#: functions.php:202
+#: inc/customizer.php:357
+msgid "Yellow"
+msgstr "Gul"
+
+#: inc/customizer.php:337
+msgid "Gray"
+msgstr "Grå"
+
+#: inc/customizer.php:327
+msgid "Dark"
+msgstr "Mørk"
+
+#: inc/customizer.php:317
+msgid "Default"
+msgstr "Standard"
+
+#: image.php:109
+#: single.php:31
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Publisert på</span><span class=\"post-title\">%title</span>"
+
+#: inc/customizer.php:176
+msgid "Page Background Color"
+msgstr "Side-bakgrunnsfarge"
+
+#: inc/customizer.php:242
+#: inc/wpcom-colors.php:403
+msgid "Secondary Text Color"
+msgstr "Sekundærfarge på teksten"
+
+#: inc/customizer.php:221
+#: inc/wpcom-colors.php:324
+msgid "Main Text Color"
+msgstr "Primærfarge på teksten"
+
+#: inc/customizer.php:200
+#: inc/wpcom-colors.php:179
+msgid "Link Color"
+msgstr "Lenkefarge"
+
+#. translators: %s: The current WordPress version.
+#: inc/back-compat.php:45
+#: inc/back-compat.php:62
+#: inc/back-compat.php:85
+msgid "Twenty Sixteen requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Sixteen krever minst versjon 4.4 av WordPress. Du kjører versjon %s. Vennligst oppgrader og prøv igjen."
+
+#: inc/customizer.php:153
+msgid "Base Color Scheme"
+msgstr "Grunnfargeskjema"
+
+#. translators: Hidden accessibility text.
+#: image.php:79
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Full størrelse"
+
+#: image.php:26
+msgid "Next Image"
+msgstr "Neste bilde"
+
+#: image.php:58
+#: template-parts/content-page.php:24
+#: template-parts/content-single.php:26
+#: template-parts/content.php:36
+msgid "Pages:"
+msgstr "Sider:"
+
+#: header.php:59
+msgid "Menu"
+msgstr "Meny"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "Forrige bilde"
+
+#: functions.php:411
+msgid "collapse child menu"
+msgstr "trekk sammen undermenyen"
+
+#. translators: Hidden accessibility text.
+#: header.php:31
+msgid "Skip to content"
+msgstr "Gå til innhold"
+
+#: functions.php:410
+msgid "expand child menu"
+msgstr "trekk ut undermenyen"
+
+#. translators: If there are characters in your language that are not supported
+#. by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:319
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:335
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:327
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:276
+msgid "Content Bottom 1"
+msgstr "Innhold Bunn 1"
+
+#: functions.php:288
+msgid "Content Bottom 2"
+msgstr "Innhold Bunn 2"
+
+#: functions.php:278
+#: functions.php:290
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr "Vises på bunnen av innholdet på innlegg og sider."
+
+#: functions.php:79
+#: header.php:76
+msgid "Social Links Menu"
+msgstr "Meny for sosiale lenker"
+
+#: functions.php:264
+msgid "Sidebar"
+msgstr "Sidekolonne"
+
+#: functions.php:78
+#: header.php:63
+msgid "Primary Menu"
+msgstr "Primærmeny"
+
+#. translators: %s: WordPress
+#: footer.php:63
+msgid "Proudly powered by %s"
+msgstr "Stolt drevet av %s"
+
+#. Author URI of the theme
+#: footer.php:60
+msgid "https://wordpress.org/"
+msgstr "https://nb.wordpress.org/"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Kommentarer er stengt."
+
+#. translators: Hidden accessibility text.
+#: archive.php:55
+#: image.php:63
+#: index.php:52
+#: search.php:47
+#: template-parts/content-page.php:29
+#: template-parts/content-single.php:31
+#: template-parts/content.php:41
+msgid "Page"
+msgstr "Side"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "En kommentar om &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s kommentarer om &ldquo;%2$s&rdquo;"
+
+#: archive.php:52
+#: index.php:49
+#: search.php:44
+msgid "Previous page"
+msgstr "Forrige side"
+
+#: archive.php:53
+#: index.php:50
+#: search.php:45
+msgid "Next page"
+msgstr "Neste side"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Det ble ikke funnet noe her. Kanskje du kan prøve å søke?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Den siden finnes ikke."
