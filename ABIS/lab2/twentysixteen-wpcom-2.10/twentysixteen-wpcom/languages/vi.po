@@ -1,0 +1,463 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Twenty Sixteen\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-27T05:06:28+00:00\n"
+"PO-Revision-Date: 2024-03-13 14:02:27+0000\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: inc/block-patterns.php:140
+msgid "Pre-Order Now"
+msgstr "Đặt trước"
+
+#: inc/block-patterns.php:133
+msgid "My new book “Twenty Sixteen” is available for pre-order."
+msgstr "Cuốn sách “Twenty Sixteen” đã cho phép đặt trước."
+
+#: inc/block-patterns.php:122
+msgid "Call to Action"
+msgstr "Nút bấm"
+
+#: inc/block-patterns.php:102
+msgid "— Takashi Irie"
+msgstr "— Takashi Irie"
+
+#: inc/block-patterns.php:98
+msgid "Twenty Sixteen will make your WordPress look beautiful everywhere."
+msgstr "Twenty Sixteen sẽ giúp bạn có một trang WordPress đẹp và xem tốt trên mọi thiết bị."
+
+#: inc/block-patterns.php:87
+msgid "Large Blockquote"
+msgstr "Trích dẫn Lớn"
+
+#: inc/block-patterns.php:73
+msgid "The theme features a harmonious fluid grid using a mobile-first approach. The layout is a modern take on the horizontal masthead with an optional right sidebar."
+msgstr "Twenty Sixteen được tối ưu cho các thiết bị di động. Giao diện là cách bố cục trang web phổ biến của WordPress — ảnh bìa ở đầu trang với thanh điều hướng bên phải."
+
+#: inc/block-patterns.php:67
+msgid "Twenty Sixteen will make your WordPress website look beautiful everywhere. Take advantage of its custom color options and beautiful default color schemes."
+msgstr "Twenty Sixteen sẽ giúp bạn có một website WordPress chạy tốt trên mọi thiết bị. Nó còn có sẵn các mẫu phối màu tuyệt đẹp."
+
+#: inc/block-patterns.php:50
+msgid "Big Title with Two Columns Text"
+msgstr "Tựa đề Lớn với 02 Cột Văn Bản"
+
+#: inc/block-patterns.php:38
+msgid "Twenty Sixteen will make your WordPress website look beautiful everywhere. Take advantage of custom color options, beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail."
+msgstr "Twenty Sixteen sẽ giúp bạn có một website WordPress chạy tốt trên mọi thiết bị. Nó còn có sẵn các mẫu phối màu tuyệt đẹp. Nó cũng được tối ưu cho các thiết bị di động với bố cục bài đăng hài hòa, linh hoạt và được chăm chút hoàn hảo đến từng chi tiết."
+
+#: inc/block-patterns.php:35
+msgid "Twenty Sixteen is a modern take on the horizontal masthead with an optional right sidebar. It works perfectly for WordPress websites and blogs."
+msgstr "Twenty Sixteen là một giao diện hiện đại dựa trên một cách bố cục trang web rất phổ biển của WordPress - phần header ở đầu trang với tùy chọn sidebar bên phải rất phù hợp với các blog cá nhân và trang web."
+
+#: inc/block-patterns.php:28
+msgid "Large heading with short description"
+msgstr "Đề mục Lớn với mô tả ngắn"
+
+#: functions.php:162
+msgid "White"
+msgstr "Trắng"
+
+#: functions.php:152
+msgid "Medium Gray"
+msgstr "Xám vừa"
+
+#: functions.php:197
+msgid "Bright Red"
+msgstr "Đỏ nhạt"
+
+#: functions.php:192
+msgid "Dark Red"
+msgstr "Đỏ đậm"
+
+#: functions.php:187
+msgid "Medium Brown"
+msgstr "Nâu vừa"
+
+#: functions.php:182
+msgid "Dark Brown"
+msgstr "Nâu đậm"
+
+#: functions.php:177
+msgid "Light Blue"
+msgstr "Xanh biển nhạt"
+
+#: functions.php:172
+msgid "Bright Blue"
+msgstr "Xanh biển nhạt"
+
+#: functions.php:167
+msgid "Blue Gray"
+msgstr "Xanh xám"
+
+#: functions.php:157
+msgid "Light Gray"
+msgstr "Xám nhạt"
+
+#: functions.php:147
+msgid "Dark Gray"
+msgstr "Xám đậm"
+
+#: inc/wpcom-colors.php:73
+msgid "Page Background"
+msgstr "Nền Trang"
+
+#: inc/wpcom-colors.php:7
+msgid "Background"
+msgstr "Nền"
+
+#. translators: %s: Post title.
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Một bình luận về &ldquo;%s&rdquo;"
+
+#. translators: Hidden accessibility text.
+#: searchform.php:24
+msgctxt "submit button"
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#. translators: Hidden accessibility text.
+#: searchform.php:16
+msgctxt "label"
+msgid "Search for:"
+msgstr "Tìm kiếm:"
+
+#: searchform.php:19
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Tìm kiếm &hellip;"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:203
+#: template-parts/content.php:29
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Đọc tiếp<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/customizer.php:347
+msgid "Red"
+msgstr "Đỏ"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: image.php:90
+#: template-parts/content-page.php:40
+#: template-parts/content-search.php:28
+#: template-parts/content-search.php:43
+#: template-parts/content-single.php:48
+#: template-parts/content.php:54
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Sửa<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: functions.php:266
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Thêm các widget để chúng hiển thị trên thanh bên."
+
+#: footer.php:30
+msgid "Footer Social Links Menu"
+msgstr "Liên kết mạng xã hội ở Cuối Trang"
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr "Menu Chính ở Cuối Trang"
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "Nổi bật"
+
+#. Description of the theme
+#: style.css
+msgid "Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere."
+msgstr "Twenty Sixteen là một giao diện hiện đại dựa trên cách bố cục trang web phổ biến của WordPress — ảnh bìa ở đầu trang với thanh điều hướng bên phải, rất phù hợp với các blog và trang web. Giao diện này cho phép bạn tùy chỉnh màu sắc của trang web với những mẫu màu được phối sẵn. Nó cũng được tối ưu cho các thiết bị di động với bố cục bài đăng hài hòa, linh hoạt và được chăm chút hoàn hảo đến từng chi tiết. Twenty Sixteen sẽ giúp bạn có một trang WordPress đẹp và xem tốt trên mọi thiết bị."
+
+#: template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Không tìm thấy gì cả. Hãy thử tìm kiếm nội dung khác."
+
+#: template-parts/content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Không có nội dung nào trùng khớp với truy vấn của bạn. Hãy thử lại với từ khóa khác."
+
+#. translators: %s: Post editor URL.
+#: template-parts/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bạn đã sẵn sàng đăng bài viết đầu tiên chưa? <a href=\"%1$s\">Hãy bắt đầu tại đây</a>."
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Không tìm thấy"
+
+#. translators: %s: The post author display name.
+#: template-parts/biography.php:35
+msgid "View all posts by %s"
+msgstr "Xem tất cả bài viết của %s"
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "Tác giả:"
+
+#. translators: Hidden accessibility text.
+#: single.php:44
+msgid "Previous post:"
+msgstr "Bài trước:"
+
+#: single.php:42
+msgid "Previous"
+msgstr "Trước đó"
+
+#. translators: Hidden accessibility text.
+#: single.php:40
+msgid "Next post:"
+msgstr "Bài tiếp:"
+
+#: single.php:38
+msgid "Next"
+msgstr "Kế tiếp"
+
+#. translators: %s: The search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm %s"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:121
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Thẻ"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:111
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Chuyên mục"
+
+#: inc/template-tags.php:106
+#: inc/template-tags.php:116
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:44
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Định dạng"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:90
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Đăng ngày"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:58
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Gửi bình luận <span class=\"screen-reader-text\"> về %s</span>"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:27
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Tác giả"
+
+#: functions.php:202
+#: inc/customizer.php:357
+msgid "Yellow"
+msgstr "Vàng"
+
+#: inc/customizer.php:337
+msgid "Gray"
+msgstr "Xám"
+
+#: inc/customizer.php:327
+msgid "Dark"
+msgstr "Tối"
+
+#: inc/customizer.php:317
+msgid "Default"
+msgstr "Mặc định"
+
+#: inc/customizer.php:242
+#: inc/wpcom-colors.php:403
+msgid "Secondary Text Color"
+msgstr "Màu chữ Phụ"
+
+#: inc/customizer.php:221
+#: inc/wpcom-colors.php:324
+msgid "Main Text Color"
+msgstr "Màu chữ Chính"
+
+#: inc/customizer.php:200
+#: inc/wpcom-colors.php:179
+msgid "Link Color"
+msgstr "Màu Liên kết"
+
+#: inc/customizer.php:176
+msgid "Page Background Color"
+msgstr "Màu Nền"
+
+#: inc/customizer.php:153
+msgid "Base Color Scheme"
+msgstr "Tông Màu Gốc"
+
+#. translators: %s: The current WordPress version.
+#: inc/back-compat.php:45
+#: inc/back-compat.php:62
+#: inc/back-compat.php:85
+msgid "Twenty Sixteen requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "Giao diện Twenty Sixteen yêu cầu phiên bản WordPress 4.4 trở lên. Bạn đang sử dụng bản %s. Hãy cập nhật phiên bản WordPress của bạn và thử lại."
+
+#: image.php:109
+#: single.php:31
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Đăng trong</span><span class=\"post-title\">%title</span>"
+
+#. translators: Hidden accessibility text.
+#: image.php:79
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Kích cỡ đầy đủ"
+
+#: image.php:58
+#: template-parts/content-page.php:24
+#: template-parts/content-single.php:26
+#: template-parts/content.php:36
+msgid "Pages:"
+msgstr "Trang:"
+
+#: image.php:26
+msgid "Next Image"
+msgstr "Ảnh sau"
+
+#: header.php:59
+msgid "Menu"
+msgstr "Menu"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "Ảnh trước"
+
+#. translators: Hidden accessibility text.
+#: header.php:31
+msgid "Skip to content"
+msgstr "Xem thêm"
+
+#: functions.php:411
+msgid "collapse child menu"
+msgstr "ẩn menu con"
+
+#: functions.php:410
+msgid "expand child menu"
+msgstr "hiện menu con"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:335
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:327
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:319
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:288
+msgid "Content Bottom 2"
+msgstr "Phần Cuối Trang 2"
+
+#: functions.php:278
+#: functions.php:290
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr "Xuất hiện ở dưới mỗi bài đăng và trang."
+
+#: functions.php:276
+msgid "Content Bottom 1"
+msgstr "Phần Cuối Trang 1"
+
+#: functions.php:264
+msgid "Sidebar"
+msgstr "Thanh bên"
+
+#: functions.php:79
+#: header.php:76
+msgid "Social Links Menu"
+msgstr "Menu liên kết Mạng Xã Hội"
+
+#: functions.php:78
+#: header.php:63
+msgid "Primary Menu"
+msgstr "Menu Chính"
+
+#. Author URI of the theme
+#: style.css
+#: footer.php:60
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. translators: %s: WordPress
+#: footer.php:63
+msgid "Proudly powered by %s"
+msgstr "Hỗ trợ bởi %s"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Bình luận đã tắt."
+
+#. translators: Hidden accessibility text.
+#: archive.php:55
+#: image.php:63
+#: index.php:52
+#: search.php:47
+#: template-parts/content-page.php:29
+#: template-parts/content-single.php:31
+#: template-parts/content.php:41
+msgid "Page"
+msgstr "Trang"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s bình luận về &ldquo;%2$s&rdquo;"
+
+#: archive.php:52
+#: index.php:49
+#: search.php:44
+msgid "Previous page"
+msgstr "Trang trước"
+
+#: archive.php:53
+#: index.php:50
+#: search.php:45
+msgid "Next page"
+msgstr "Trang tiếp"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Không tìm thấy gì ở đây. Hãy thử tìm thứ khác?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Úi! Không tìm thấy trang này."
