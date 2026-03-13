@@ -1,0 +1,144 @@
+--2.1
+CREATE OR REPLACE TYPE PersonTrip_t AS OBJECT (
+    EmployeeID    NUMBER,
+    FirstName     NVARCHAR2(100),
+    LastName      NVARCHAR2(100),
+    TripID        NUMBER,
+    Destination   NVARCHAR2(200),
+    StartDate     DATE,
+    EndDate       DATE,
+    Purpose       NVARCHAR2(300),
+
+    CONSTRUCTOR FUNCTION PersonTrip_t(
+        p_FirstName   NVARCHAR2,
+        p_LastName    NVARCHAR2,
+        p_Destination NVARCHAR2,
+        p_StartDate   DATE,
+        p_EndDate     DATE,
+        p_Purpose     NVARCHAR2
+    ) RETURN SELF AS RESULT,
+
+    MAP MEMBER FUNCTION map_duration RETURN NUMBER,
+
+    MEMBER FUNCTION get_trip_days RETURN NUMBER,
+
+    MEMBER PROCEDURE change_purpose(p_new_purpose NVARCHAR2)
+);
+/
+--2.2
+CREATE OR REPLACE TYPE BODY PersonTrip_t AS
+
+    CONSTRUCTOR FUNCTION PersonTrip_t(
+        p_FirstName   NVARCHAR2,
+        p_LastName    NVARCHAR2,
+        p_Destination NVARCHAR2,
+        p_StartDate   DATE,
+        p_EndDate     DATE,
+        p_Purpose     NVARCHAR2
+    ) RETURN SELF AS RESULT
+    IS
+    BEGIN
+        SELF.EmployeeID  := 0;
+        SELF.FirstName   := p_FirstName;
+        SELF.LastName    := p_LastName;
+        SELF.TripID      := 0;
+        SELF.Destination := p_Destination;
+        SELF.StartDate   := p_StartDate;
+        SELF.EndDate     := p_EndDate;
+        SELF.Purpose     := p_Purpose;
+        RETURN;
+    END;
+
+    MAP MEMBER FUNCTION map_duration RETURN NUMBER
+    IS
+    BEGIN
+        RETURN NVL(EndDate - StartDate, 0);
+    END;
+
+    MEMBER FUNCTION get_trip_days RETURN NUMBER
+    IS
+    BEGIN
+        RETURN NVL(EndDate - StartDate, 0);
+    END;
+
+    MEMBER PROCEDURE change_purpose(p_new_purpose NVARCHAR2)
+    IS
+    BEGIN
+        SELF.Purpose := p_new_purpose;
+    END;
+
+END;
+/
+--2.3
+CREATE TABLE PersonTrip_objtab OF PersonTrip_t;
+--2.4a
+INSERT INTO PersonTrip_objtab
+SELECT PersonTrip_t(
+    e.EmployeeID,
+    e.FirstName,
+    e.LastName,
+    b.TripID,
+    b.Destination,
+    b.StartDate,
+    b.EndDate,
+    b.Purpose
+)
+FROM Employees e
+JOIN BusinessTrips b
+    ON e.EmployeeID = b.EmployeeID;
+SELECT *
+FROM PersonTrip_objtab;
+--2.5
+INSERT INTO PersonTrip_objtab
+VALUES (
+    PersonTrip_t(
+        N'Иван',
+        N'Петров',
+        N'Берлин',
+        DATE '2026-05-10',
+        DATE '2026-05-15',
+        N'Посещение конференции'
+    )
+);
+SELECT *
+FROM PersonTrip_objtab
+WHERE FirstName = N'Иван'
+  AND LastName = N'Петров';
+--2.6b
+SELECT p.EmployeeID,
+       p.FirstName,
+       p.LastName,
+       p.Destination,
+       p.StartDate,
+       p.EndDate,
+       p.map_duration() AS TripDays
+FROM PersonTrip_objtab p
+ORDER BY VALUE(p);
+MEMBER FUNCTION get_trip_days RETURN NUMBER
+MEMBER PROCEDURE change_purpose(p_new_purpose NVARCHAR2)
+--2.7c
+--2.8d
+SELECT
+    p.FirstName,
+    p.LastName,
+    p.Destination,
+    p.get_trip_days() AS DaysCount
+FROM PersonTrip_objview p
+WHERE p.get_trip_days() > 5;
+--5
+CREATE INDEX idx_persontrip_destination
+ON PersonTrip_objtab (Destination);
+SELECT *
+FROM PersonTrip_objtab p
+WHERE p.Destination = N'Берлин';
+
+CREATE INDEX idx_persontrip_tripdays
+ON PersonTrip_objtab (get_trip_days());
+
+SELECT
+    p.FirstName,
+    p.LastName,
+    p.Destination,
+    p.get_trip_days() AS TripDays
+FROM PersonTrip_objtab p
+WHERE p.get_trip_days() >= 7;
