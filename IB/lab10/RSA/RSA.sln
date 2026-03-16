@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSA", "RSA.csproj", "{FE0365CC-FA42-4571-A219-C035A213CD24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSA-2", "..\RSA-2\RSA-2.csproj", "{7BA3911B-CC2F-436C-9366-DB927BB8BF20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSA-EL_GAMAL", "..\RSA-EL_GAMAL\RSA-EL_GAMAL.csproj", "{F2B4DB97-9B36-4956-9D2C-F833710E59FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE0365CC-FA42-4571-A219-C035A213CD24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0365CC-FA42-4571-A219-C035A213CD24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0365CC-FA42-4571-A219-C035A213CD24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0365CC-FA42-4571-A219-C035A213CD24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA3911B-CC2F-436C-9366-DB927BB8BF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA3911B-CC2F-436C-9366-DB927BB8BF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA3911B-CC2F-436C-9366-DB927BB8BF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA3911B-CC2F-436C-9366-DB927BB8BF20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B4DB97-9B36-4956-9D2C-F833710E59FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B4DB97-9B36-4956-9D2C-F833710E59FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B4DB97-9B36-4956-9D2C-F833710E59FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B4DB97-9B36-4956-9D2C-F833710E59FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E2C7312-B33D-4F14-BE6C-0D20C1791A03}
+	EndGlobalSection
+EndGlobal
