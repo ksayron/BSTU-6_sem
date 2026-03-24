@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "fullName": "Smelov Vladimir",
+    "nationality": "Russia",
+    "reqPhotoPath": "/images/smelov.jpg"
+  },
+  {
+    "id": 2,
+    "fullName": "Shiman Dmitry",
+    "nationality": "Belarus",
+    "reqPhotoPath": "/images/shiman.jpg"
+  },
+  {
+    "id": 3,
+    "fullName": "Shinman2",
+    "nationality": "BSTU",
+    "reqPhotoPath": "/images/tom.jpg"
+  }
+]
