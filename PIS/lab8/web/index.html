@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO08_01 WebSocket Client</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f4f1ea;
+            --panel: #fffaf0;
+            --ink: #1e1b18;
+            --accent: #0e7490;
+            --border: #d6c7ad;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", serif;
+            background:
+                radial-gradient(circle at top left, rgba(14, 116, 144, 0.18), transparent 28%),
+                linear-gradient(135deg, #efe7da, var(--bg));
+            color: var(--ink);
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 24px;
+        }
+
+        main {
+            width: min(760px, 100%);
+            background: rgba(255, 250, 240, 0.92);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 24px;
+            box-shadow: 0 18px 50px rgba(58, 45, 28, 0.12);
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 600;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        #log {
+            margin-top: 20px;
+            background: #201c17;
+            color: #f9f3e7;
+            padding: 16px;
+            border-radius: 12px;
+            min-height: 280px;
+            white-space: pre-wrap;
+            font-family: Consolas, "Courier New", monospace;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div id="log"></div>
+</main>
+
+<script>
+    const logEl = document.getElementById("log");
+    const appendLog = (message) => {
+        const ts = new Date().toLocaleTimeString();
+        logEl.textContent += `[${ts}] ${message}\n`;
+        logEl.scrollTop = logEl.scrollHeight;
+    };
+
+    const ws = new WebSocket(`ws://${location.host}/ws`);
+    let sent = 0;
+
+    ws.addEventListener("open", () => {
+        appendLog("socket opened");
+
+        const timer = setInterval(() => {
+            sent += 1;
+            const message = `message ${sent}`;
+            ws.send(message);
+            appendLog(`send: ${message}`);
+
+            if (sent === 5) {
+                clearInterval(timer);
+                setTimeout(() => {
+                    appendLog("closing socket");
+                    ws.close(1000, "browser done");
+                }, 300);
+            }
+        }, 1000);
+    });
+
+    ws.addEventListener("message", (event) => {
+        appendLog(`recv: ${event.data}`);
+    });
+
+    ws.addEventListener("close", (event) => {
+        appendLog(`socket closed code=${event.code} reason=${event.reason || "none"}`);
+    });
+
+    ws.addEventListener("error", () => {
+        appendLog("socket error");
+    });
+</script>
+</body>
+</html>
