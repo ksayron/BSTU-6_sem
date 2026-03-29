@@ -1,0 +1,14 @@
+services:
+  webdav:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: webdav-nginx
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./data:/var/webdav
+      - ./auth/.htpasswd:/etc/nginx/.htpasswd:ro
+      - ./logs:/var/log/nginx
+    restart: unless-stopped
