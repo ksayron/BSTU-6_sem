@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Факультеты</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 0px;
+        }
+        .row {
+            margin-bottom: 10px;
+        }
+        #select_result {
+            margin-top: 20px;
+        }
+        .container{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .item-container{
+            width: 300px;
+        }
+        input{
+            width: 98%;
+            height: 25px;
+            margin-bottom: 10px;
+        }
+        button{
+            width: 100%;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item-container">
+            <h3>Получить факультеты</h3>
+            <button onclick="select()">Получить всех факультетов</button>
+            <div id="error" style="color: red;"></div>
+            <div>
+                <input type="text" id="facultyId">
+                <input type="text" id="facultyName">
+            </div>
+            <button onclick="addFaculty()">Добавить факультет</button>
+            <button onclick="updateFaculty()">Обновить факультет</button>
+            <button onclick="deleteFaculty()">Удалить факультет</button>
+            <div id="select_faculties"></div>
+        </div>
+        <div class="item-container">
+            <h3>Получить кафедры</h3>
+            <button onclick="selectPulpits()">Получить всех кафедр</button>
+            <div id="error" style="color: red;"></div>
+            <div>
+                <input type="text" id="pulpitId">
+                <input type="text" id="pulpitName">
+                <input type="text" id="faculty">
+            </div>
+            <button onclick="addPulpit()">Добавить кафедру</button>
+            <button onclick="updatePulpit()">Обновить кафедру</button>
+            <button onclick="deletePulpit()">Удалить кафедру</button>
+            <div id="select_pulpits"></div>
+        </div>
+        <div class="item-container">
+            <h3>Получить предметы</h3>
+            <button onclick="selectSubjects()">Получить всех предметов</button>
+            <div id="error" style="color: red;"></div>
+            <div>
+                <input type="text" id="subjectId">
+                <input type="text" id="subjectName">
+                <input type="text" id="pulpit">
+            </div>
+            <button onclick="addSubject()">Добавить предмет</button>
+    <button onclick="updateSubject()">Обновить предмет</button>
+    <button onclick="deleteSubject()">Удалить предмет</button>
+            <div id="select_subjects"></div>
+        </div>
+        <div class="item-container">
+            <h3>Получить тип аудитории</h3>
+            <button onclick="selectAuditoriumtype()">Получить всех типов аудиторий</button>
+            <div id="error" style="color: red;"></div>
+            <div>
+                <input type="text" id="auditoriumtypeId">
+                <input type="text" id="AuditoriumtypeName">
+            </div>
+            <button onclick="addAuditoriumtype()">Добавить тип аудитории</button>
+            <button onclick="updateAuditoriumtype()">Обновить тип аудитории</button>
+            <button onclick="deleteAuditoriumtype()">Удалить тип аудитории</button>
+            <div id="select_auditoriumtype"></div>
+        </div>
+        <div class="item-container">
+            <h3>Получить аудиторию</h3>
+            <button onclick="selectAuditorium()">Получить всех аудиторий</button>
+            <div id="error" style="color: red;"></div>
+            <div>
+                <input type="text" id="auditoriumId">
+                <input type="text" id="auditoriumName">
+                <input type="text" id="auditorium_capacity">
+                <input type="text" id="auditorium_type">
+            </div>
+            <button onclick="addAuditorium()">Добавить аудиторию</button>
+            <button onclick="updateAuditorium()">Обновить аудиторию</button>
+    <button onclick="deleteAuditorium()">Удалить аудиторию</button>
+            <div id="select_auditorium"></div>
+        </div>
+    </div>
+
+    <script>
+    const select = () => {
+        fetch("/api/faculties", { method: "GET", headers: { 'Accept': 'application/json' } })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Ошибка сети: ' + response.statusText);
+            }
+            return response.text(); 
+        })
+        .then(text => {
+
+            try {
+                const data = JSON.parse(text);
+                const selectResult = document.getElementById('select_faculties');
+                selectResult.innerHTML = ""; 
+                data.forEach(el => {
+                    selectResult.innerHTML += `<div class="el">
+                        <strong>Факультет:</strong> ${el.faculty}<br>
+                        <strong>Имя факультета:</strong> ${el.faculty_name}<br>
+                    </div><hr>`;
+                });
+            } catch (error) {
+                throw new Error('Ошибка при парсинге JSON: ' + error.message);
+            }
+        })
+        .catch(error => {
+            document.getElementById('error').innerText = 'Ошибка: ' + error.message;
+        });
+    }
+
+    const selectPulpits = () => {
+        fetch("/api/pulpits", { method: "GET", headers: { 'Accept': 'application/json' } })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Ошибка сети: ' + response.statusText);
+            }
+            return response.text(); 
+        })
+        .then(text => {
+
+            try {
+                const data = JSON.parse(text);
+                const selectResult = document.getElementById('select_pulpits');
+                selectResult.innerHTML = ""; 
+                data.forEach(el => {
+                    selectResult.innerHTML += `<div class="el">
+                        <strong>Кафедра:</strong> ${el.pulpit}<br>
+                        <strong>Название кафедры:</strong> ${el.pulpit_name}<br>
+                        <strong>Факультет:</strong> ${el.faculty}<br>
+                    </div><hr>`;
+                });
+            } catch (error) {
+                throw new Error('Ошибка при парсинге JSON: ' + error.message);
+            }
+        })
+        .catch(error => {
+            document.getElementById('error').innerText = 'Ошибка: ' + error.message;
+        });
+    }
+
+    const selectSubjects = () => {
+        fetch("/api/subjects", { method: "GET", headers: { 'Accept': 'application/json' } })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Ошибка сети: ' + response.statusText);
+            }
+            return response.text(); 
+        })
+        .then(text => {
+
+            try {
+                const data = JSON.parse(text);
+                const selectResult = document.getElementById('select_subjects');
+                selectResult.innerHTML = ""; 
+                data.forEach(el => {
+                    selectResult.innerHTML += `<div class="el">
+                        <strong>Предмет:</strong> ${el.subject}<br>
+                        <strong>Название предмета:</strong> ${el.subject_name}<br>
+                        <strong>Кафедра:</strong> ${el.pulpit}<br>
+                    </div><hr>`;
+                });
+            } catch (error) {
+                throw new Error('Ошибка при парсинге JSON: ' + error.message);
+            }
+        })
+        .catch(error => {
+            document.getElementById('error').innerText = 'Ошибка: ' + error.message;
+        });
+    }
+
+    const selectAuditoriumtype = () => {
+        fetch("/api/auditoriumtypes", { method: "GET", headers: { 'Accept': 'application/json' } })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Ошибка сети: ' + response.statusText);
+            }
+            return response.text(); 
+        })
+        .then(text => {
+
+            try {
+                const data = JSON.parse(text);
+                const selectResult = document.getElementById('select_auditoriumtype');
+                selectResult.innerHTML = ""; 
+                data.forEach(el => {
+                    selectResult.innerHTML += `<div class="el">
+                        <strong>Тип аудитории:</strong> ${el.auditorium_type}<br>
+                        <strong>Название типа аудиториии:</strong> ${el.auditorium_typename}<br>
+                    </div><hr>`;
+                });
+            } catch (error) {
+                throw new Error('Ошибка при парсинге JSON: ' + error.message);
+            }
+        })
+        .catch(error => {
+            document.getElementById('error').innerText = 'Ошибка: ' + error.message;
+        });
+    }
+
+    const selectAuditorium = () => {
+        fetch("/api/auditoriums", { method: "GET", headers: { 'Accept': 'application/json' } })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Ошибка сети: ' + response.statusText);
+            }
+            return response.text(); 
+        })
+        .then(text => {
+
+            try {
+                const data = JSON.parse(text);
+                const selectResult = document.getElementById('select_auditorium');
+                selectResult.innerHTML = ""; 
+                data.forEach(el => {
+                    selectResult.innerHTML += `<div class="el">
+                        <strong>Тип аудитории:</strong> ${el.auditorium}<br>
+                        <strong>Название типа аудиториии:</strong> ${el.auditorium_name}<br>
+                        <strong>Вместимость аудитории:</strong> ${el.auditorium_capacity}<br>
+                        <strong>Тип аудитории:</strong> ${el.auditorium_type}<br>
+                    </div><hr>`;
+                });
+            } catch (error) {
+                throw new Error('Ошибка при парсинге JSON: ' + error.message);
+            }
+        })
+        .catch(error => {
+            document.getElementById('error').innerText = 'Ошибка: ' + error.message;
+        });
+    }
+
+    //-------------------------------------INSERT---------------------------------
+    function addFaculty() {
+            const facultyId = document.getElementById("facultyId").value;
+            const facultyName = document.getElementById("facultyName").value;
+            fetch('/api/faculties', {
+                method: 'POST',
+                body: JSON.stringify({ faculty: facultyId, faculty_name: facultyName}),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to add faculty');
+                }
+                return response.json();
+            })
+            .then(data => handleResponse(JSON.stringify(data)))
+            .catch(error => handleError(error.message));
+    } 
+    
+    function updateFaculty() {
+            const facultyId = document.getElementById("facultyId").value;
+            const facultyName = document.getElementById("facultyName").value;
+            fetch('/api/faculties', {
+                method: 'PUT',
+                body: JSON.stringify({ faculty: facultyId, faculty_name: facultyName}),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to update faculty');
+                }
+                return response.json();
+            })
+            .then(data => handleResponse(JSON.stringify(data)))
+            .catch(error => {
+                document.getElementById('error').innerText = 'Ошибка: ' + error.message;
+            });
+            getTeachers();
+            
+    }
+
+    function deleteFaculty() {
+            const facultyId = document.getElementById("facultyId").value;
+            fetch(`/api/faculties/${facultyId}`, {
+                method: 'DELETE'
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to delete faculty');
+                }
+                return response.json();
+            })
+            .then(data => handleResponse(JSON.stringify(data)))
+            .catch(error => handleError(error.message));
+            getTeachers();
+    }
+
+    //---------------------------------КАФЕДРЫ-------------------------
+    function addPulpit() {
+    const pulpitId = document.getElementById("pulpitId").value;
+    const pulpitName = document.getElementById("pulpitName").value;
+    const faculty = document.getElementById("faculty").value;
+    fetch('/api/pulpits', {
+        method: 'POST',
+        body: JSON.stringify({ pulpit: pulpitId, pulpit_name: pulpitName, faculty: faculty }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to add pulpit');
+        }
+        return response.json();
+    })
+    .then(data => handleResponse(JSON.stringify(data)))
+    .catch(error => handleError(error.message));
+}
+
+function updatePulpit() {
+    const pulpitId = document.getElementById("pulpitId").value;
+    const pulpitName = document.getElementById("pulpitName").value;
+    const faculty = document.getElementById("faculty").value;
+    fetch('/api/pulpits', {
+        method: 'PUT',
+        body: JSON.stringify({ pulpit: pulpitId, pulpit_name: pulpitName, faculty: faculty }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to update pulpit: проверьте данные');
+        }
+        return response.json();
+    })
+    .then(data => handleResponse(JSON.stringify(data)))
+    .catch(error => {
+                document.getElementById('error').innerText = 'Ошибка: ' + error.message;
+            });
+    selectPulpits();
+}
+
+function deletePulpit() {
+    const pulpitId = document.getElementById("pulpitId").value;
+    fetch(`/api/pulpits/${pulpitId}`, {
+        method: 'DELETE'
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to delete pulpit');
+        }
+        return response.json();
+    })
+    .then(data => handleResponse(JSON.stringify(data)))
+    .catch(error => handleError(error.message));
+    selectPulpits();
+}
+    //--------------------------------ПРЕДМЕТ-------------------------
+    function addSubject() {
+    const subjectId = document.getElementById("subjectId").value;
+    const subjectName = document.getElementById("subjectName").value;
+    const pulpit = document.getElementById("pulpit").value;
+    fetch('/api/subjects', {
+        method: 'POST',
+        body: JSON.stringify({ subject: subjectId, subject_name: subjectName, pulpit: pulpit }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to add subject');
+        }
+        return response.json();
+    })
+    .then(data => handleResponse(JSON.stringify(data)))
+    .catch(error => handleError(error.message));
+}
+
+function updateSubject() {
+    const subjectId = document.getElementById("subjectId").value;
+    const subjectName = document.getElementById("subjectName").value;
+    const pulpit = document.getElementById("pulpit").value;
+    fetch('/api/subjects', {
+        method: 'PUT',
+        body: JSON.stringify({ subject: subjectId, subject_name: subjectName, pulpit: pulpit }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to update subject');
+        }
+        return response.json();
+    })
+    .then(data => handleResponse(JSON.stringify(data)))
+    .catch(error => handleError(error.message));
+    selectSubjects();
+}
+
+function deleteSubject() {
+    const subjectId = document.getElementById("subjectId").value;
+    fetch(`/api/subjects/${subjectId}`, {
+        method: 'DELETE'
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to delete subject');
+        }
+        return response.json();
+    })
+    .then(data => handleResponse(JSON.stringify(data)))
+    .catch(error => handleError(error.message));
+    selectSubjects();
+}
+    //--------------------------------ТИП АУДИТОРИИ ------------------
+    function addAuditoriumtype() {
+    const audTypeId = document.getElementById("auditoriumtypeId").value;
+    const audTypeName = document.getElementById("AuditoriumtypeName").value;
+    fetch('/api/auditoriumtypes', {
+        method: 'POST',
+        body: JSON.stringify({ auditorium_type: audTypeId, auditorium_typename: audTypeName }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to add auditorium type');
+        }
+        return response.json();
+    })
+    .then(data => handleResponse(JSON.stringify(data)))
+    .catch(error => handleError(error.message));
+}
+
+function updateAuditoriumtype() {
+    const audTypeId = document.getElementById("auditoriumtypeId").value;
+    const audTypeName = document.getElementById("AuditoriumtypeName").value;
+    fetch('/api/auditoriumtypes', {
+        method: 'PUT',
+        body: JSON.stringify({ auditorium_type: audTypeId, auditorium_typename: audTypeName }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to update auditorium type');
+        }
+        return response.json();
+    })
+    .then(data => handleResponse(JSON.stringify(data)))
+    .catch(error => handleError(error.message));
+    selectAuditoriumtype();
+}
+
+function deleteAuditoriumtype() {
+    const audTypeId = document.getElementById("auditoriumtypeId").value;
+    fetch(`/api/auditoriumtypes/${audTypeId}`, {
+        method: 'DELETE'
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to delete auditorium type');
+        }
+        return response.json();
+    })
+    .then(data => handleResponse(JSON.stringify(data)))
+    .catch(error => handleError(error.message));
+    selectAuditoriumtype();
+}
+    //--------------------------------АУДИТОРИЯ ----------------------
+    function addAuditorium() {
+    const auditoriumId = document.getElementById("auditoriumId").value;
+    const auditoriumName = document.getElementById("auditoriumName").value;
+    const auditoriumCapacity = document.getElementById("auditorium_capacity").value;
+    const auditoriumType = document.getElementById("auditorium_type").value;
+    fetch('/api/auditoriums', {
+        method: 'POST',
+        body: JSON.stringify({
+            auditorium: auditoriumId,
+            auditorium_name: auditoriumName,
+            auditorium_capacity: auditoriumCapacity,
+            auditorium_type: auditoriumType
+        }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to add auditorium');
+        }
+        return response.json();
+    })
+    .then(data => handleResponse(JSON.stringify(data)))
+    .catch(error => handleError(error.message));
+}
+
+function updateAuditorium() {
+    const auditoriumId = document.getElementById("auditoriumId").value;
+    const auditoriumName = document.getElementById("auditoriumName").value;
+    const auditoriumCapacity = document.getElementById("auditorium_capacity").value;
+    const auditoriumType = document.getElementById("auditorium_type").value;
+    fetch('/api/auditoriums', {
+        method: 'PUT',
+        body: JSON.stringify({
+            auditorium: auditoriumId,
+            auditorium_name: auditoriumName,
+            auditorium_capacity: auditoriumCapacity,
+            auditorium_type: auditoriumType
+        }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to update auditorium');
+        }
+        return response.json();
+    })
+    .then(data => handleResponse(JSON.stringify(data)))
+    .catch(error => handleError(error.message));
+    selectAuditorium();
+}
+
+function deleteAuditorium() {
+    const auditoriumId = document.getElementById("auditoriumId").value;
+    fetch(`/api/auditoriums/${auditoriumId}`, {
+        method: 'DELETE'
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to delete auditorium');
+        }
+        return response.json();
+    })
+    .then(data => handleResponse(JSON.stringify(data)))
+    .catch(error => handleError(error.message));
+    selectAuditorium();
+}
+
+
+    </script>
+</body>
+</html>
