@@ -1,0 +1,11 @@
+[
+    {
+        "id": 3,
+        "name": "AMADEEV",
+        "surname": "VIKTOR",
+        "address": {
+            "street": "Домбровская 9",
+            "city": "Минск"
+        }
+    }
+]
