@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список пользователей</title>
+    <link rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h2>Список пользователей</h2>
+        <% if (users.length > 0) { %>
+            <ul>
+                <% users.forEach(user => { %>
+                    <li>
+                        <%= user.id %>: <%= user.name %> <%= user.surname %>
+                        <% if (user.address) { %>
+                            (<%= user.address.street %>, <%= user.address.city %>)
+                        <% } %>
+
+                        <form action="/users/<%= user.id %>?_method=PUT" class="formEdit" method="POST" style="display:inline;">
+                            <input type="text" name="name" placeholder="Новое имя" required>
+                            <input type="text" name="surname" placeholder="Новая фамилия" required>
+                            <input type="text" name="address[street]" placeholder="Новая улица" required>
+                            <input type="text" name="address[city]" placeholder="Новый город" required>
+                            <button type="submit">Обновить</button>
+                        </form>
+                        <form action="/users/<%= user.id %>?_method=DELETE" method="POST" style="display:inline;">
+                            <button type="submit">Удалить</button>
+                        </form>
+                    </li>
+                <% }) %>
+            </ul>
+        <% } else { %>
+            <p>Пользователей нет</p>
+        <% } %>
+
+        <h2>Добавить пользователя</h2>
+        <form action="/users" method="POST" class="formCreate">
+            <input type="text" name="name" placeholder="Введите имя" required>
+            <input type="text" name="surname" placeholder="Введите фамилию" required>
+            <input type="text" name="address[street]" placeholder="Улица" required>
+            <input type="text" name="address[city]" placeholder="Город" required>
+            <button type="submit">Добавить</button>
+        </form>
+    </main>
+</body>
+</html>
