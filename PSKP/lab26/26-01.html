@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WASM Demo</title>
+</head>
+<body>
+    <h1>WASM</h1>
+    <p>sum(3,4) = <span id="rsum"></span></p>
+    <p>sub(3,4) = <span id="rsub"></span></p>
+    <p>mul(3,4) = <span id="rmul"></span></p>
+    <script>
+        const base64 = "AGFzbQEAAAABBwFgAn9/AX8DBQQAAAAABxkEA3N1bQAAA3N1YgABA211bAACA2RpdgADCiEEBwAgACABagsHACAAIAFrCwcAIAAgAWwLBwAgACABbQsAPwRuYW1lARUEAANzdW0BA3N1YgIDbXVsAwNkaXYCIQQAAgABYQEBYgECAAFhAQFiAgIAAWEBAWIDAgABYQEBYg==";
+
+        function base64ToArrayBuffer(base64) {
+            const binaryString = atob(base64);
+            const len = binaryString.length;
+            const bytes = new Uint8Array(len);
+            for (let i = 0; i < len; i++) {
+                bytes[i] = binaryString.charCodeAt(i);
+            }
+            return bytes.buffer;
+        }
+
+        (async () => {
+            try {
+                const wasmBuffer = base64ToArrayBuffer(base64);
+                const { instance } = await WebAssembly.instantiate(wasmBuffer);
+
+                if (instance.exports.sum && instance.exports.sub &&
+                    instance.exports.mul) {
+                    document.getElementById("rsum").textContent = instance.exports.sum(10, 5);
+                    document.getElementById("rsub").textContent = instance.exports.sub(56, 128);
+                    document.getElementById("rmul").textContent = instance.exports.mul(6, 7);
+                } else {
+                    console.error("Не все функции экспортированы");
+                }
+            } catch (error) {
+                console.error("WASM Error:", error);
+            }
+        })();
+    </script>
+</body>
+</html>
