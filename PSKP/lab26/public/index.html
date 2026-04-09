@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>WASM</h1>
+    <p>sum(3,4) = <span id="rsum">...</span></p>
+    <p>sub(3,4) = <span id="rsub">...</span></p>
+    <p>mul(3,4) = <span id="rmul">...</span></p>
+
+    <script>
+        (async () => {
+            try {
+                const response = await fetch('http://localhost:3000/calc.wasm');
+                const bytes = await response.arrayBuffer();
+                const { instance } = await WebAssembly.instantiate(bytes);
+               if (instance.exports.sum && instance.exports.sub &&
+               instance.exports.mul) {
+                    document.getElementById('rsum').textContent = instance.exports.sum(3, 4);
+                    document.getElementById('rsub').textContent = instance.exports.sub(3, 4);
+                    document.getElementById('rmul').textContent = instance.exports.mul(3, 4);
+                }
+                else {
+                    throw new Error("Функции не найдены в экспортах");
+                }
+                
+            } catch (error) {
+                console.error('Ошибка:', error);
+                document.body.innerHTML += `<p style="color:red">Ошибка: ${error.message}</p>`;
+            }
+        })();
+    </script>
+</body>
+</html>
