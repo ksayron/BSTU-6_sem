@@ -1,0 +1,13 @@
+openapi: 3.0.0
+info:
+    title: 'Phone Directory API'
+    version: 1.0.0
+    description: 'API для управления телефонным справочником'
+servers:
+    - {url: 'http://localhost:3001', description: 'Local server'}
+paths:
+    /TS: {get: {summary: 'Получить весь справочник', tags: [PhoneBook], responses: {'200': {description: 'Список всех контактов', content: {application/json: {schema: {type: array, items: {$ref: '#/components/schemas/PhoneEntry'}}, example: [{id: '1', name: Виктор, phone: '+375 29 123-45-67'}]}}}}}, post: {summary: 'Добавить новый контакт', tags: [PhoneBook], requestBody: {required: true, content: {application/json: {schema: {$ref: '#/components/schemas/PhoneEntry'}, example: {id: '2', name: Ваня, phone: '+375 33 111-22-33'}}}}, responses: {'201': {description: 'Контакт успешно добавлен'}, '400': {description: 'Неверные данные контакта'}}}, put: {summary: 'Обновить существующий контакт', tags: [PhoneBook], requestBody: {required: true, content: {application/json: {schema: {$ref: '#/components/schemas/PhoneEntry'}, example: {id: '1', name: 'Виктория Бычковская', phone: '+375 29 999-88-77'}}}}, responses: {'200': {description: 'Контакт успешно обновлен'}, '400': {description: 'Неверные данные контакта'}, '404': {description: 'Контакт не найден'}}}, delete: {summary: 'Удалить контакт', tags: [PhoneBook], parameters: [{in: query, name: id, required: true, schema: {type: string}, example: '1'}], responses: {'204': {description: 'Контакт успешно удален'}, '404': {description: 'Контакт не найден'}}}}
+components:
+    schemas: {PhoneEntry: {type: object, required: [id, name, phone], properties: {id: {type: string, description: 'Уникальный идентификатор контакта', example: '1'}, name: {type: string, description: 'ФИО контакта', example: Виктория}, phone: {type: string, description: 'Номер телефона', example: '+375 29 123-45-67'}}}}
+tags:
+    - {name: PhoneBook, description: 'Управление телефонным справочником'}
