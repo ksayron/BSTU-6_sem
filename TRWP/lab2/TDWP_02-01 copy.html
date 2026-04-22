@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TDWA02-01</title>
+    <link rel="stylesheet" href="TDWP_02-01.css">
+</head>
+<body>
+
+<h1>lab</h1>
+
+<div class="form-container">
+    <label>Operation (op):</label>
+    <input type="text" id="op" placeholder="add | sub | mul | div">
+
+    <label>X:</label>
+    <input type="number" id="x">
+
+    <label>Y:</label>
+    <input type="number" id="y">
+</div>
+
+<div class="buttons">
+    <button onclick="sendGet()">GET</button>
+    <button onclick="sendPost()">POST</button>
+    <button onclick="sendPut()">PUT</button>
+    <button onclick="sendDelete()">DELETE</button>
+</div>
+
+<h2>Result:</h2>
+<pre id="result"></pre>
+
+<script src="TDWP_02-01.js"></script>
+</body>
+</html>
