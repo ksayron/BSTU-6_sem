@@ -1,0 +1,43 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/api",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/A",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/A",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5002 }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DownstreamPathTemplate": "/A",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5003 }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DownstreamPathTemplate": "/A",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5003 }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:7000"
+  }
+}
