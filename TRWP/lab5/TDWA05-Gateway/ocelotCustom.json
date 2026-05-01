@@ -1,0 +1,55 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/lb",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/A",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 },
+        { "Host": "localhost", "Port": 5002 },
+        { "Host": "localhost", "Port": 5003 }
+      ],
+      "LoadBalancerOptions": { "Type": "CustomLoadBalancer" }
+    },
+    {
+      "UpstreamPathTemplate": "/lb",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/A",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 },
+        { "Host": "localhost", "Port": 5002 },
+        { "Host": "localhost", "Port": 5003 }
+      ],
+      "LoadBalancerOptions": { "Type": "CustomLoadBalancer" }
+    },
+    {
+      "UpstreamPathTemplate": "/lb",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DownstreamPathTemplate": "/A",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 },
+        { "Host": "localhost", "Port": 5002 },
+        { "Host": "localhost", "Port": 5003 }
+      ],
+      "LoadBalancerOptions": { "Type": "CustomLoadBalancer" }
+    },
+    {
+      "UpstreamPathTemplate": "/lb",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DownstreamPathTemplate": "/A",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 },
+        { "Host": "localhost", "Port": 5002 },
+        { "Host": "localhost", "Port": 5003 }
+      ],
+      "LoadBalancerOptions": { "Type": "CustomLoadBalancer" }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:7000"
+  }
+}
