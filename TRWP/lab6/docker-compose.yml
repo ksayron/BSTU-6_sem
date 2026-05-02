@@ -1,0 +1,43 @@
+version: "3.9"
+
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: lab6-mssql
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Your_strong_Passw0rd"
+      MSSQL_PID: "Developer"
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./mssql/data:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Your_strong_Passw0rd -Q 'SELECT 1' || /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P Your_strong_Passw0rd -Q 'SELECT 1' -C"]
+      interval: 15s
+      timeout: 5s
+      retries: 20
+
+  tdwa06-api:
+    build:
+      context: ./TDWA06-01
+      dockerfile: Dockerfile
+    container_name: lab6-tdwa06-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ConnectionStrings__CelebritiesDb: "Server=mssql,1433;Database=Celebrities;User Id=sa;Password=Your_strong_Passw0rd;TrustServerCertificate=True;Encrypt=False"
+    depends_on:
+      mssql:
+        condition: service_healthy
+    ports:
+      - "5000:8080"
+
+  nginx:
+    image: nginx:latest
+    container_name: lab6-nginx
+    depends_on:
+      - tdwa06-api
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
